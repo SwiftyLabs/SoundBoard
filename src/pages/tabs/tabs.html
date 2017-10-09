@@ -1,0 +1,8 @@
+<ion-tabs>
+  <ion-tab [root]="tab1Root" tabTitle="Home" tabIcon="home"></ion-tab>
+  <ion-tab [root]="tab2Root" tabTitle="Favoritos" tabIcon="star"></ion-tab>
+  <ion-tab (ionSelect)="share()" tabTitle="Share" tabIcon="share"></ion-tab>
+  <ion-tab *ngIf="this.global.getMyGlobalHideButton()" (ionSelect)="buy()" tabTitle="Ads" tabIcon="close-circle"></ion-tab>   
+</ion-tabs>  
+                                     
+ 

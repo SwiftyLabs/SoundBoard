@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "C:\\Users\\bhalbuquerque\\Desktop\\Ionic\\Sound\\Rosco2\\ionic-soundboard-master\\platforms\\android\\com.appodeal.plugin\\ionicsoundboard279073-cheetah-mobile\\build\\intermediates\\res\\merged\\debug\\layout\\gps_dialog.xml",
+        "source": "C:\\Users\\bhalbuquerque\\Desktop\\Ionic\\Sound\\Rosco2\\ionic-soundboard-master\\platforms\\android\\com.appodeal.plugin\\ionicsoundboard279073-cheetah-mobile\\res\\layout\\gps_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\bhalbuquerque\\Desktop\\Ionic\\Sound\\Rosco2\\ionic-soundboard-master\\platforms\\android\\com.appodeal.plugin\\ionicsoundboard279073-cheetah-mobile\\build\\intermediates\\res\\merged\\debug\\layout\\cm_splash_time.xml",
+        "source": "C:\\Users\\bhalbuquerque\\Desktop\\Ionic\\Sound\\Rosco2\\ionic-soundboard-master\\platforms\\android\\com.appodeal.plugin\\ionicsoundboard279073-cheetah-mobile\\res\\layout\\cm_splash_time.xml"
+    },
+    {
+        "merged": "C:\\Users\\bhalbuquerque\\Desktop\\Ionic\\Sound\\Rosco2\\ionic-soundboard-master\\platforms\\android\\com.appodeal.plugin\\ionicsoundboard279073-cheetah-mobile\\build\\intermediates\\res\\merged\\debug\\layout\\origin_picks_banner_smail.xml",
+        "source": "C:\\Users\\bhalbuquerque\\Desktop\\Ionic\\Sound\\Rosco2\\ionic-soundboard-master\\platforms\\android\\com.appodeal.plugin\\ionicsoundboard279073-cheetah-mobile\\res\\layout\\origin_picks_banner_smail.xml"
+    },
+    {
+        "merged": "C:\\Users\\bhalbuquerque\\Desktop\\Ionic\\Sound\\Rosco2\\ionic-soundboard-master\\platforms\\android\\com.appodeal.plugin\\ionicsoundboard279073-cheetah-mobile\\build\\intermediates\\res\\merged\\debug\\layout\\activity_picks_browser.xml",
+        "source": "C:\\Users\\bhalbuquerque\\Desktop\\Ionic\\Sound\\Rosco2\\ionic-soundboard-master\\platforms\\android\\com.appodeal.plugin\\ionicsoundboard279073-cheetah-mobile\\res\\layout\\activity_picks_browser.xml"
+    },
+    {
+        "merged": "C:\\Users\\bhalbuquerque\\Desktop\\Ionic\\Sound\\Rosco2\\ionic-soundboard-master\\platforms\\android\\com.appodeal.plugin\\ionicsoundboard279073-cheetah-mobile\\build\\intermediates\\res\\merged\\debug\\layout\\cm_activity_picks_interstitial.xml",
+        "source": "C:\\Users\\bhalbuquerque\\Desktop\\Ionic\\Sound\\Rosco2\\ionic-soundboard-master\\platforms\\android\\com.appodeal.plugin\\ionicsoundboard279073-cheetah-mobile\\res\\layout\\cm_activity_picks_interstitial.xml"
+    },
+    {
+        "merged": "C:\\Users\\bhalbuquerque\\Desktop\\Ionic\\Sound\\Rosco2\\ionic-soundboard-master\\platforms\\android\\com.appodeal.plugin\\ionicsoundboard279073-cheetah-mobile\\build\\intermediates\\res\\merged\\debug\\layout\\activity_picks_loading.xml",
+        "source": "C:\\Users\\bhalbuquerque\\Desktop\\Ionic\\Sound\\Rosco2\\ionic-soundboard-master\\platforms\\android\\com.appodeal.plugin\\ionicsoundboard279073-cheetah-mobile\\res\\layout\\activity_picks_loading.xml"
+    },
+    {
+        "merged": "C:\\Users\\bhalbuquerque\\Desktop\\Ionic\\Sound\\Rosco2\\ionic-soundboard-master\\platforms\\android\\com.appodeal.plugin\\ionicsoundboard279073-cheetah-mobile\\build\\intermediates\\res\\merged\\debug\\layout\\origin_picks_banner_mid.xml",
+        "source": "C:\\Users\\bhalbuquerque\\Desktop\\Ionic\\Sound\\Rosco2\\ionic-soundboard-master\\platforms\\android\\com.appodeal.plugin\\ionicsoundboard279073-cheetah-mobile\\res\\layout\\origin_picks_banner_mid.xml"
+    },
+    {
+        "merged": "C:\\Users\\bhalbuquerque\\Desktop\\Ionic\\Sound\\Rosco2\\ionic-soundboard-master\\platforms\\android\\com.appodeal.plugin\\ionicsoundboard279073-cheetah-mobile\\build\\intermediates\\res\\merged\\debug\\layout\\cm_vast_small_view.xml",
+        "source": "C:\\Users\\bhalbuquerque\\Desktop\\Ionic\\Sound\\Rosco2\\ionic-soundboard-master\\platforms\\android\\com.appodeal.plugin\\ionicsoundboard279073-cheetah-mobile\\res\\layout\\cm_vast_small_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\bhalbuquerque\\Desktop\\Ionic\\Sound\\Rosco2\\ionic-soundboard-master\\platforms\\android\\com.appodeal.plugin\\ionicsoundboard279073-cheetah-mobile\\build\\intermediates\\res\\merged\\debug\\layout\\cm_activity_full_screen_video.xml",
+        "source": "C:\\Users\\bhalbuquerque\\Desktop\\Ionic\\Sound\\Rosco2\\ionic-soundboard-master\\platforms\\android\\com.appodeal.plugin\\ionicsoundboard279073-cheetah-mobile\\res\\layout\\cm_activity_full_screen_video.xml"
+    },
+    {
+        "merged": "C:\\Users\\bhalbuquerque\\Desktop\\Ionic\\Sound\\Rosco2\\ionic-soundboard-master\\platforms\\android\\com.appodeal.plugin\\ionicsoundboard279073-cheetah-mobile\\build\\intermediates\\res\\merged\\debug\\layout\\cm_vast_ad_layout.xml",
+        "source": "C:\\Users\\bhalbuquerque\\Desktop\\Ionic\\Sound\\Rosco2\\ionic-soundboard-master\\platforms\\android\\com.appodeal.plugin\\ionicsoundboard279073-cheetah-mobile\\res\\layout\\cm_vast_ad_layout.xml"
+    }
+]

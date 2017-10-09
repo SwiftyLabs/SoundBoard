@@ -1,0 +1,42 @@
+
+<ion-header>
+  <ion-navbar hideBackButton>
+    <ion-title>
+      
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content class="color">
+
+
+<ion-grid>
+  <ion-row wrap>
+    <ion-col ng-repeat *ngFor="let sound of sounds"  col-4>
+    <ion-card>
+    <ion-card-content (click)="play(sound)">     
+      <div class="wrapper">     
+      <img src="{{ sound.imageUrl }}" />
+      </div>
+
+    </ion-card-content>
+    <ion-item>
+      <ion-grid> 
+        <h2 wrap>{{ sound.title }}</h2>           
+            <ion-row>
+              <ion-col col-6><button ion-button [ngStyle]="{'background-color': sound.color}" (click)="share(sound.file)">  <ion-icon name="{{icon}}"></ion-icon>
+</button></ion-col>
+              <ion-col col-6><button ion-button [ngStyle]="{'background-color': sound.color,'margin-left':'5px'}" (click)="toggleFavourite(sound)"><ion-icon name="star"></ion-icon></button></ion-col>
+            </ion-row>
+          </ion-grid>
+        
+    </ion-item>
+    </ion-card>
+
+    </ion-col>
+  </ion-row>
+
+</ion-grid>
+
+</ion-content>

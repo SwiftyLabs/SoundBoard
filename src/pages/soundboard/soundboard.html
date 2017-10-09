@@ -1,0 +1,379 @@
+<ion-content class="card-background-page">
+  
+    <ion-card ng-repeat *ngFor="let sound of sounds" class="widthfull" (click)="presentLoadingNovidades(sound)">
+      <img style="" src="{{ filenamee }}" />
+      <img style="position: absolute;" src="assets/tiririca-button-unclicked.png" />
+      <div class="card-title">{{sound.title}}</div>
+      <div class="card-subtitle">{{sound.secondTitle}}</div>
+  
+    </ion-card>
+   
+    <ion-grid>
+        <ion-row>
+            <ion-col class="max-width">
+              <button ion-button color="{{color1}}" style="max-width:98%; float:left; margin-left: 4px;" (click)="sendrandom(sound)">ROLETA DE ÁUDIOS</button>
+            </ion-col>         
+          </ion-row>
+      <ion-row>
+        <ion-col class="max-width">
+          <button ion-button color="{{color2}}" style="max-width:97%; float:left; margin-left: 4px;" (click)="colourStyle(sound)">SOM ALEATÓRIO</button>
+        </ion-col>
+        <ion-col class="max-width">
+          <button ion-button color="{{color3}}" style="max-width:97%; float:right" (click)="presentLoadingSearch()">PESQUISAR</button>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+         <ion-col class="max-width">
+          <ion-card (click)="presentLoadingMateiformiga()">
+            <img src="assets/test.jpg" />
+            <div class="card-title-small">MATEIFORMIGA</div>
+          </ion-card>
+  
+        </ion-col>
+        <ion-col class="max-width">
+          <ion-card (click)="presentLoadingWhindersson()">
+            <img src="assets/whindersson.jpg" />
+            <div class="card-title-small">WHINDERSSON</div>
+          </ion-card>
+  
+        </ion-col>
+      </ion-row>
+  
+      <ion-row>
+  
+        <ion-col class="max-width">
+          <ion-card (click)="presentLoadingCabras()">
+            <img src="assets/cabras.jpg" />
+            <div class="card-title-small">CABRAS</div>
+          </ion-card>
+  
+        </ion-col>
+  
+        <ion-col class="max-width">
+  
+          <ion-card (click)="presentLoadingPqp()">
+            <img src="assets/pqp.jpg" />
+            <div class="card-title-small">PQP</div>
+          </ion-card>
+  
+        </ion-col>
+        
+        <ion-col class="max-width">
+  
+          <ion-card (click)="presentLoadingDilma()">
+            <img src="assets/dilma.jpg" />
+            <div class="card-title-small">DILMA</div>
+          </ion-card>
+  
+        </ion-col>
+      </ion-row>
+  
+      <ion-row>
+         <ion-col class="max-width">
+          <ion-card [navPush]="csgoPage">
+            <img src="assets/csgo.jpg" />
+            <div class="card-title-small">CS:GO</div>
+          </ion-card>
+        </ion-col>
+        <ion-col class="max-width">
+          <ion-card (click)="presentLoadingHinos()">
+            <img src="assets/hinos.jpg" />
+            <div class="card-title-small">HINOS</div>
+          </ion-card>
+  
+        </ion-col>
+      </ion-row>
+  
+      <ion-row>
+        <ion-col (click)="presentLoadingTv()">
+          <ion-card>
+            <img src="assets/tv.jpg" />
+            <div class="card-title-small">TV</div>
+          </ion-card>
+  
+        </ion-col>
+        <ion-col>
+  
+          <ion-card (click)="presentLoadingWhatsapp()">
+            <img src="assets/whatsapp.jpg" />
+            <div class="card-title-small">WHATSAPP</div>
+          </ion-card>
+  
+        </ion-col>
+  
+        <ion-col>
+  
+          <ion-card (click)="presentLoadingBambam()">
+            <img src="assets/bambam.jpg" />
+            <div class="card-title-small">BAM BAM</div>
+  
+          </ion-card>
+  
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="max-width">
+  
+          <ion-card (click)="presentLoadingOne()">
+            <img src="assets/one.jpg" />
+            <div class="card-title-small">ONE PUNCH</div>
+          </ion-card>
+  
+        </ion-col>
+        <ion-col class="max-width">
+  
+          <ion-card (click)="presentLoadingXingamentos()">
+            <img src="assets/xingamentos.jpg" />
+            <div class="card-title-small">XINGAMENTOS</div>
+          </ion-card>
+  
+        </ion-col>     
+        
+      </ion-row>
+  
+      <ion-row>      
+        <ion-col class="max-width">
+  
+          <ion-card (click)="openUrl()">
+            <img src="assets/deadpool.jpg" />
+            <div class="card-title-small"></div>
+          </ion-card>
+  
+        </ion-col>
+       <ion-col class="max-width">
+          <ion-card [navPush]="chavesPage">
+            <img src="assets/chavesmain.jpg" />
+            <div class="card-title-small">CHAVES</div>
+          </ion-card>
+        </ion-col>
+        
+      </ion-row>
+  
+      <ion-row>
+        <ion-col class="max-width">
+  
+          <ion-card (click)="presentLoadingDouglas()">
+            <img src="assets/douglas.jpg" />
+            <div class="card-title-small">DOUGLAS</div>
+          </ion-card>
+  
+        </ion-col>
+  
+        <ion-col class="max-width">
+  
+          <ion-card (click)="presentLoadingTiririca()">
+            <img src="assets/tiririca.jpg" />
+            <div class="card-title-small">TIRIRICA</div>
+          </ion-card>
+  
+        </ion-col>
+  
+        <ion-col class="max-width">
+  
+          <ion-card (click)="presentLoadingSomsdiversos()">
+            <img src="assets/somdiversos.jpg" />
+            <div class="card-title-small">SONS</div>
+          </ion-card>
+  
+        </ion-col>
+      </ion-row>
+  
+      <ion-row>
+  
+        <ion-col class="max-width">
+  
+          <ion-card (click)="presentLoadingDragon()">
+            <img src="assets/dragon.jpg" />
+            <div class="card-title-small">DRAGON BALL Z</div>
+          </ion-card>
+  
+        </ion-col>
+  
+  
+        <ion-col class="max-width">
+  
+          <ion-card (click)="presentLoadingFunk()">
+            <img src="assets/funk2.jpg" />
+            <div class="card-title-small">FUNK</div>
+          </ion-card>
+  
+        </ion-col>
+      </ion-row>
+
+       <ion-row>      
+        <ion-col class="max-width">
+  
+          <ion-card (click)="openUrl2()">
+            <img src="assets/parc2.jpg" />
+            <div class="card-title-small"></div>
+          </ion-card>
+  
+        </ion-col>
+       <ion-col class="max-width">
+        <ion-card (click)="openUrl3()">
+            <img src="assets/parc3.jpg" />
+            <div class="card-title-small"></div>
+          </ion-card>
+        </ion-col>
+        
+      </ion-row>
+  
+      <ion-row>
+        <ion-col class="max-width">
+  
+          <ion-card (click)="presentLoadingMiseravi()">
+            <img src="assets/miseravi.jpg" />
+            <div class="card-title-small">MISERAVI</div>
+          </ion-card>
+  
+        </ion-col>
+        <ion-col class="max-width">
+          <ion-card (click)="presentLoadingFrases()">
+            <img src="assets/frases.jpg" />
+            <div class="card-title-small">FRASES</div>
+          </ion-card>
+  
+  
+        </ion-col>
+  
+        <ion-col class="max-width">
+          <ion-card (click)="presentLoadingAlborghetti()">
+            <img src="assets/alborghetti.jpg" />
+            <div class="card-title-small">ALBORGHETTI</div>
+          </ion-card>
+        </ion-col>
+  
+      </ion-row>
+  
+      <ion-row>
+        <ion-col class="max-width">
+  
+          <ion-card (click)="presentLoadingGuitarra()">
+            <img src="assets/guitarra2.jpg" />
+            <div class="card-title-small">GUITARRA HUMANO</div>
+          </ion-card>
+  
+        </ion-col>
+        <ion-col class="max-width">
+  
+          <ion-card (click)="presentLoadingZe()">
+            <img src="assets/ze.jpg" />
+            <div class="card-title-small">ZÉ PEQUENO</div>
+          </ion-card>
+  
+        </ion-col>
+  
+      </ion-row>
+  
+      <ion-row>
+        <ion-col>
+  
+          <ion-card (click)="presentLoadingCobra()">
+            <img src="assets/cobra.jpg" />
+            <div class="card-title-small">HOMEM COBRA</div>
+          </ion-card>
+  
+        </ion-col>
+        <ion-col>
+  
+          <ion-card (click)="presentLoadingDavy()">
+            <img src="assets/davy.jpg" />
+            <div class="card-title-small">DAVY JONES</div>
+          </ion-card>
+  
+        </ion-col>
+  
+      </ion-row>
+      <ion-row>
+  
+  
+        <ion-col>
+  
+          <ion-card (click)="presentLoadingDiadasemana()">
+            <img src="assets/diadesemana.jpg" />
+            <div class="card-title-small">DIAS</div>
+          </ion-card>
+  
+        </ion-col>
+        <ion-col>
+  
+          <ion-card (click)="presentLoadingPiadas()">
+            <img src="assets/piadas.jpg" />
+            <div class="card-title-small">PIADAS</div>
+          </ion-card>
+  
+        </ion-col>
+  
+        <ion-col>
+  
+          <ion-card (click)="presentLoadingMusica()">
+            <img src="assets/musica.jpg" />
+            <div class="card-title-small">MÚSICA</div>
+  
+          </ion-card>
+  
+        </ion-col>
+      </ion-row>
+  
+      <ion-row>
+        <ion-col>
+  
+          <ion-card (click)="presentLoadingGil()">
+            <img src="assets/gil.jpg" />
+            <div class="card-title-small">GIL BROTHER</div>
+          </ion-card>
+  
+        </ion-col>
+        <ion-col>
+  
+          <ion-card (click)="presentLoadingOtavio()">
+            <img src="assets/otavio.jpg" />
+            <div class="card-title-small">OCTAVIO NETO</div>
+          </ion-card>
+  
+        </ion-col>
+  
+      </ion-row>
+  
+      <ion-row>
+       <ion-col>
+  
+          <ion-card (click)="presentLoadingBolsonaro()">
+            <img src="assets/bolsonario.jpg" />
+            <div class="card-title-small">BOLSONARO</div>
+          </ion-card>
+  
+        </ion-col>
+        <ion-col>
+  
+          <ion-card (click)="presentLoadingSapeca()">
+            <img src="assets/sapeca.jpg" />
+            <div class="card-title-small">RAPOSINHA</div>
+          </ion-card>
+  
+        </ion-col>
+  
+        <ion-col>
+   
+          <ion-card (click)="presentLoadingPapa()">
+            <img src="assets/papaa.jpg" />
+            <div class="card-title-small">PAPA CAPIM</div>
+          </ion-card>
+  
+        </ion-col>
+  
+      </ion-row>
+  
+  
+      <ion-row>
+        <ion-col class="max-width">
+          <ion-card [navPush]="tropaPage">
+            <img src="assets/tropa.jpg" />
+            <div class="card-title">TROPA DE ELITE</div>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+  
+     
+    </ion-grid>
+  </ion-content>

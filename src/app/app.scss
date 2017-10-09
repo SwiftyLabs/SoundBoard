@@ -1,0 +1,174 @@
+// http://ionicframework.com/docs/v2/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+
+.spinner-container {
+        width: 100%;
+        text-align: center;
+        padding: 10px;               
+    }
+
+ 
+.margin{
+    margin-top: 13%;
+}
+.toolbar-background {
+    background-color: #3c403e;
+}
+.header-md::after{
+    background-image: none;
+}
+.button{
+    width: 100%;
+}
+ 
+.wrapper {
+    display: inline-block !important;
+    position:relative !important;
+}
+
+.spinner-crescent circle  {
+    stroke: #ffffff;
+}
+
+.loading-md .spinner-crescent circle {
+    stroke: #4c4c4c;
+}
+
+.loading .spinner-crescent circle {
+    stroke: #4c4c4c;
+}
+
+.color {
+    background-color: #3c403e !important;
+}
+.color-orange {
+    background-color: orange !important;
+}
+.color-green {
+    background-color: seagreen !important;
+}
+.color-red {
+    background-color: #c92702 !important;
+}
+.color-purple {
+    background-color: #730498 !important;
+}
+
+.card-background-page .card-title-small {
+    position: absolute !important;
+    top: 36% !important;
+    font-size: 1.0em !important;
+    width: 100% !important;
+    font-weight: bold !important;
+    color: #fff !important;
+}
+
+.card-background-page .card-title-icon {
+    position: absolute !important;
+    bottom: 0px;
+    width: 100% !important;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 3.0em !important;
+    color: #fff !important;
+    z-index: 2;
+}
+
+ion-card {
+    margin: 4px 12px 0px 4px !important;
+    width: calc(100% - 5px) !important;
+    border-radius: 2px !important;
+    font-size: 1.4rem !important;
+    background: none !important;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.3) !important;
+}
+
+ion-card ion-card-content {
+    padding: 0px 0px 0px 0px !important;
+    font-size: 1.4rem !important;
+    line-height: 1.4 !important;
+}
+
+.widthfull {
+    width: 100% !important;
+    margin: 0px !important;
+    border-radius: 0px !important;
+}
+
+.item h2 {
+    color: white !important;
+    font-size: small !important;
+    max-height: 20px;
+    min-height: 20px; 
+    margin-bottom: 15%;
+    margin-top: 0px;
+}
+
+.item {
+    text-align: center !important;
+    padding: 0 !important;
+    background: none !important;
+}
+
+ion-label {
+    margin: 0px 0px 0px 0px !important;
+    white-space: inherit !important;
+}
+
+ion-col {
+    padding: 0px !important;
+   }
+
+.card-background-page {
+
+    ion-card {
+        position: relative !important;
+        text-align: center !important;
+    }
+
+    .card-title {
+        position: absolute !important;
+        top: 36% !important;
+        font-size: 2.0em !important;
+        width: 100% !important;
+        font-weight: bold !important;
+        color: #fff !important;
+    }
+
+    .card-subtitle {
+        font-size: 1.0em !important;
+        position: absolute !important;
+        top: 52% !important;
+        width: 100% !important;
+        color: #fff !important;
+    }
+
+    .max-width {
+        max-width: 100% !important;
+    }
+
+    .hide {
+        display:none;
+    }
+
+    .show {
+        display: inline;
+    }
+
+   
+
+}

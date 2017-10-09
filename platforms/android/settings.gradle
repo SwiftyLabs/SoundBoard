@@ -1,0 +1,5 @@
+// GENERATED FILE - DO NOT EDIT
+include ":"
+include ":CordovaLib"
+include ":com.appodeal.plugin:cheetah-mobile"
+project(":com.appodeal.plugin:cheetah-mobile").projectDir = new File("com.appodeal.plugin/ionicsoundboard279073-cheetah-mobile")

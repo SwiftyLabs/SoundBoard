@@ -1,0 +1,102 @@
+[
+    {
+        "outputFile": "C:\\Users\\bhalbuquerque\\Desktop\\Ionic\\Sound\\Rosco2\\ionic-soundboard-master\\platforms\\android\\com.appodeal.plugin\\ionicsoundboard279073-cheetah-mobile\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-zh-rCN\\values-zh-rCN.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 37,
+                    "endOffset": 88
+                },
+                "from": {
+                    "file": "C:\\Users\\bhalbuquerque\\Desktop\\Ionic\\Sound\\Rosco2\\ionic-soundboard-master\\platforms\\android\\com.appodeal.plugin\\ionicsoundboard279073-cheetah-mobile\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 183,
+                        "endColumn": 37,
+                        "endOffset": 216
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 93,
+                    "endColumn": 39,
+                    "endOffset": 128
+                },
+                "from": {
+                    "file": "C:\\Users\\bhalbuquerque\\Desktop\\Ionic\\Sound\\Rosco2\\ionic-soundboard-master\\platforms\\android\\com.appodeal.plugin\\ionicsoundboard279073-cheetah-mobile\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 222,
+                        "endColumn": 39,
+                        "endOffset": 257
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 133,
+                    "endColumn": 47,
+                    "endOffset": 176
+                },
+                "from": {
+                    "file": "C:\\Users\\bhalbuquerque\\Desktop\\Ionic\\Sound\\Rosco2\\ionic-soundboard-master\\platforms\\android\\com.appodeal.plugin\\ionicsoundboard279073-cheetah-mobile\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 263,
+                        "endColumn": 47,
+                        "endOffset": 306
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 181,
+                    "endColumn": 64,
+                    "endOffset": 241
+                },
+                "from": {
+                    "file": "C:\\Users\\bhalbuquerque\\Desktop\\Ionic\\Sound\\Rosco2\\ionic-soundboard-master\\platforms\\android\\com.appodeal.plugin\\ionicsoundboard279073-cheetah-mobile\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 312,
+                        "endColumn": 64,
+                        "endOffset": 372
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 246,
+                    "endColumn": 49,
+                    "endOffset": 291
+                },
+                "from": {
+                    "file": "C:\\Users\\bhalbuquerque\\Desktop\\Ionic\\Sound\\Rosco2\\ionic-soundboard-master\\platforms\\android\\com.appodeal.plugin\\ionicsoundboard279073-cheetah-mobile\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 378,
+                        "endColumn": 49,
+                        "endOffset": 423
+                    }
+                }
+            }
+        ]
+    }
+]

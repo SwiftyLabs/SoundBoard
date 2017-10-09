@@ -1,0 +1,48 @@
+
+<ion-header>
+  <ion-navbar hideBackButton>
+    <ion-title>
+      
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+ 
+<ion-content  class="color">
+ 
+    <ion-searchbar [(ngModel)]="searchTerm" [formControl]="searchControl" (ionInput)="onSearchInput()"></ion-searchbar>
+ 
+    <div *ngIf="searching" class="spinner-container">
+        <ion-spinner></ion-spinner>
+    </div>
+ 
+   
+
+    <ion-grid>
+  <ion-row wrap>
+    <ion-col ng-repeat *ngFor="let item of items"  col-4>
+    <ion-card>
+    <ion-card-content (click)="play(item)">     
+      <div class="wrapper">      
+      <img src="{{ item.imageUrl }}" />
+      </div>
+
+    </ion-card-content>
+    <ion-item>
+      <ion-grid> 
+        <h2 wrap>{{ item.title }}</h2>           
+            <ion-row>
+              <ion-col col-6><button ion-button [ngStyle]="{'background-color': item.color}" (click)="share(item.file)">  <ion-icon name="{{icon}}"></ion-icon>
+</button></ion-col>
+              <ion-col col-6><button ion-button [ngStyle]="{'background-color': item.color,'margin-left':'5px'}" (click)="toggleFavourite(item)"><ion-icon name="star"></ion-icon></button></ion-col>
+            </ion-row>
+          </ion-grid>
+        
+    </ion-item>
+    </ion-card>
+
+    </ion-col>
+  </ion-row>
+
+</ion-grid>
+ 
+</ion-content>

@@ -1,0 +1,1093 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+/* Begin PBXBuildFile section */
+		0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0207DA571B56EA530066E2B4 /* Images.xcassets */; };
+		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		301BF552109A68D80062928A /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; };
+		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
+		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
+		3047A5121AB8059700498E2A /* build-debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3047A50F1AB8059700498E2A /* build-debug.xcconfig */; };
+		3047A5131AB8059700498E2A /* build-release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3047A5101AB8059700498E2A /* build-release.xcconfig */; };
+		3047A5141AB8059700498E2A /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3047A5111AB8059700498E2A /* build.xcconfig */; };
+		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
+		9A8B74F994AE4B0598F2AFD6 /* AppodealPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = D25CFB163C244273ADB4BC4C /* AppodealPlugin.m */; };
+		43B957EDABE44E45A288B8F0 /* libAPDAdColonyAdapter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62F5033A415A4385AB036375 /* libAPDAdColonyAdapter.a */; };
+		0F6EAF03C4344EA58831EA0B /* libAPDAmazonAdsAdapter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E8EBBCBE1930465EBAD49FF7 /* libAPDAmazonAdsAdapter.a */; };
+		464F62FC857F4D0F974FE1AA /* libAPDAppLovinAdapter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D55D570E15745719927173F /* libAPDAppLovinAdapter.a */; };
+		C2F12B269A5F42C18D46C934 /* libAPDChartboostAdapter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57327E22CD5D42EFB67D7DAB /* libAPDChartboostAdapter.a */; };
+		501D9695CA774DAA82234997 /* libAPDFacebookAudienceAdapter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C3CEA335CF54F47B0FE23BC /* libAPDFacebookAudienceAdapter.a */; };
+		4450D425C5694A32B05DBB3A /* libAPDGoogleAdMobAdapter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F56F8F827BB4EB19574AC24 /* libAPDGoogleAdMobAdapter.a */; };
+		11080671FC194097B59E08EE /* libAPDInMobyAdapter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E2B88FC9CD3A42628AF0B930 /* libAPDInMobyAdapter.a */; };
+		17F1BCA30EF14D6F85E8DF9D /* libAPDMyTargetAdapter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4811098FF56D4B95A7F491D3 /* libAPDMyTargetAdapter.a */; };
+		FB2F9670B8CB43CA90F58A69 /* libAPDStartAppAdapter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 728D453E7D6340248EAE3524 /* libAPDStartAppAdapter.a */; };
+		DD31FBC2ECC3437991623A80 /* libAPDTapjoyAdapter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3E7C284B7F47B88F50E163 /* libAPDTapjoyAdapter.a */; };
+		1C8A503B0677483B828ED35D /* libAPDTwitterMoPubAdapter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 396F712ACBF1470C899F8B60 /* libAPDTwitterMoPubAdapter.a */; };
+		95D658182D19417B85B958EE /* libAPDUnityAdapter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81DB31E4D4D64C69BB351EEA /* libAPDUnityAdapter.a */; };
+		53266B3803B2446A9C3236FE /* libAPDVungleAdapter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55D7FADD31AA4F2DB38279B2 /* libAPDVungleAdapter.a */; };
+		C261852D805043409614C696 /* libAPDYandexAdapter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B850677514E94B8B877D9413 /* libAPDYandexAdapter.a */; };
+		74A53D6AEDC14A7C8E936384 /* Appodeal.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F8886AE13BCF43019BC441AB /* Appodeal.bundle */; };
+		AC2926D05E414B23B2A557D6 /* StartApp.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7107C2C56BD3463493C672AD /* StartApp.bundle */; };
+		10772DA5AFBB405695B2A101 /* TapjoyResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D0015B56AC0A4C2F977C4AC3 /* TapjoyResources.bundle */; };
+		BFEF1E105AC14C3884798B26 /* MPCloseBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 46E073EC81024EB8A7EA9D8A /* MPCloseBtn.png */; };
+		F4757E7456094F8CB89E36BF /* MPCloseBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96A3626613794B7C8F6D62F9 /* MPCloseBtn@2x.png */; };
+		7DFC55F8A611433EA6B4825E /* MPCloseBtn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C27A59CF51AB4120960500D5 /* MPCloseBtn@3x.png */; };
+		4FC5DD5E9EFF4BE783CF187E /* MPCloseButtonX.png in Resources */ = {isa = PBXBuildFile; fileRef = FDBFA91995AC419BAB936AB9 /* MPCloseButtonX.png */; };
+		8C11773849AF4D6C802A8079 /* MPCloseButtonX@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E65F04C17C2C463AA7878308 /* MPCloseButtonX@2x.png */; };
+		C4EF7734175A4913B3688077 /* MPCloseButtonX@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 333CF1BDC5B941E6A8A3D8C6 /* MPCloseButtonX@3x.png */; };
+		56E2864921474D979C0EF49E /* MPDAAIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F857788055144318D0EDFA9 /* MPDAAIcon.png */; };
+		C779A1B1055F4E49BAB657BC /* MPDAAIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AD11E10FF7D425CA20538CF /* MPDAAIcon@2x.png */; };
+		350877C7D0924A6D9A2A3767 /* MPDAAIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C048540C3F944DFFA5602EF7 /* MPDAAIcon@3x.png */; };
+		518EC6749A9349419B16E2C2 /* MPMutedBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E1D1E2965E54D428D3071D0 /* MPMutedBtn.png */; };
+		2FF7BD1AC0FF4FE7A5028639 /* MPMutedBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9E5DE57FA9E423CBF2A33E8 /* MPMutedBtn@2x.png */; };
+		6C5DEE2FE88D4D07A216D198 /* MPMutedBtn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC791BFAE5CD49F6A3313D91 /* MPMutedBtn@3x.png */; };
+		0C448AB781224AF38F3D9129 /* MPPlayBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = AC7C4CE2749D41D48640A4FA /* MPPlayBtn.png */; };
+		91C64AD5888E4647BEAE9204 /* MPPlayBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAD67787E05E4B4DB9073642 /* MPPlayBtn@2x.png */; };
+		F49C112CBD7B4A448B53DCAC /* MPPlayBtn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A8C766421F2149E6A807ED51 /* MPPlayBtn@3x.png */; };
+		D23BEF1D289F460EAFC96C73 /* MPUnmutedBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = FAEFDFCD028F437087CE131A /* MPUnmutedBtn.png */; };
+		F0DE4C0435864C9493516721 /* MPUnmutedBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D9E1576B2D42E1B6FF1AF2 /* MPUnmutedBtn@2x.png */; };
+		D43030F05B1E411A928061A9 /* MPUnmutedBtn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AEE48E9F5C6463491A0C67C /* MPUnmutedBtn@3x.png */; };
+		D60A292545FD4892A28291BB /* MRAID.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4A96FD2939BA4F479815CC51 /* MRAID.bundle */; };
+		E5233FA385F84D7E81386927 /* MPAdBrowserController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 162E92D541BE436CBDE93570 /* MPAdBrowserController.xib */; };
+		A354DEB5C25A45FEB25CD051 /* UnityAds.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D67B19B3784B444290CA51A8 /* UnityAds.bundle */; };
+		989D96DBC1E141078CA9AB24 /* __vungle.db in Resources */ = {isa = PBXBuildFile; fileRef = 0FC93130F9DF42EFA8D31AC4 /* __vungle.db */; };
+		74A2F7240A8646948945A3CB /* vg_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 92686E2CA1784459A41EA509 /* vg_close.png */; };
+		75E21E84765643429E390BBD /* vg_cta.png in Resources */ = {isa = PBXBuildFile; fileRef = F2686B6835E143B79BE7E85B /* vg_cta.png */; };
+		7EE75308EB2C45B48B033929 /* vg_mute_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D9FE663578B45BEB9883B14 /* vg_mute_off.png */; };
+		426D8D2C009448F9A2056335 /* vg_mute_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 42DC648C4A3B481C95391DC2 /* vg_mute_on.png */; };
+		EBAB34FA04E743D6B3B4345C /* vg_privacy.png in Resources */ = {isa = PBXBuildFile; fileRef = 571DC0FB9C9C4A32AFB82B6C /* vg_privacy.png */; };
+		323238D857CB487E9FA491A9 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C1013A811E4EE0AE278F39 /* AdSupport.framework */; };
+		4FE83834A0EA4A02876DC1CE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6591792F13E4B88B4BFFFA1 /* AudioToolbox.framework */; };
+		E4AAF323F01140E29E0BACD9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6F4F8AEDAFA42679E6157A2 /* AVFoundation.framework */; };
+		B84B7042C2CF4AC3872FCB05 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A03FDD3FAD664CBEBB7AEB21 /* CFNetwork.framework */; };
+		36C16C3B2B9449EE9D239BB5 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50166E5CF7114BC9852201AA /* CoreFoundation.framework */; };
+		625DF203FFA744148CB342B8 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F20E8D33D1C416795F51413 /* CoreImage.framework */; };
+		B43C6DB30B0C4B8B9A6582A4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36F8316DCDF44CF398BB751D /* CoreLocation.framework */; };
+		9AFCAB5B53AC48839A838C0C /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B17BC4869BE94F8DAA8C4A46 /* CoreMedia.framework */; };
+		FC3E5D5158BB40398FB5FB86 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67F3BBB743AF49D79C6C43B6 /* CoreMotion.framework */; };
+		A6E642B42D194BB48027AD65 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7F89EC5F3F34958B32F00CC /* EventKit.framework */; };
+		9852CFB0BA404BD8A2206750 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B803D3B95143F497ABEF53 /* EventKitUI.framework */; };
+		534C0CF8FBAF4F04AA5DDF75 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 159DD513BB9F40688F64D0D8 /* JavaScriptCore.framework */; };
+		14D8A572D8E040FCA47A9830 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A44B617CB34BCF9D7D397C /* MediaPlayer.framework */; };
+		DC0BE48C6E3D4FEAAEFA5769 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B2E8DE649B4605A66BFF2D /* MessageUI.framework */; };
+		303E9B261D1C4B81B128FDC8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E0BD0F1330B4BF8BDBDC712 /* QuartzCore.framework */; };
+		0B3E45DF3CBB47CFA81FD120 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10C4B66B392A49C4AFCC6540 /* Security.framework */; };
+		D3734468813F4852ABDC4065 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E70B2EBEEAA4087817DD5DB /* Social.framework */; };
+		32D516EE3C3A4CC091FA8764 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D11E25C0E9EB4EAFB15ABA14 /* StoreKit.framework */; };
+		34542B909AD844A4B43605A3 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D43EFE0DBD54E709312217C /* SafariServices.framework */; };
+		E929FAC6CDF1407CBAE6B8A8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C80D61AEC94579A9349242 /* SystemConfiguration.framework */; };
+		EFE3AB935382473DA2699DF1 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 105F13F81E2D4BB089FA18E6 /* Twitter.framework */; };
+		C1507AFEADC848DEBFD29F80 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E33E230BFDA14E26BE8978DD /* UIKit.framework */; };
+		D0E32C9F3A974C4684AB3BBE /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1302BC9122844CADA46A4057 /* WebKit.framework */; };
+		5F2D1E3F6A5748D19F48DB4F /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7088A4BCA99A45E1A0D4C1B4 /* CoreBluetooth.framework */; };
+		EB2F83323FD549048A9C9FCB /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77A3F51D39E6485CBE38F5C7 /* GLKit.framework */; };
+		9C05258ECDAC4702A1B06415 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B7DBE25A8054F099ABDF3F2 /* libc++.dylib */; };
+		7AB64351D0CD4855AB5BFAF0 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DD0D277119F644B89FEE2DA0 /* libsqlite3.dylib */; };
+		BDF71475FE7442B885C4FE8A /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D580B4F4C749416CAD05CF34 /* libxml2.2.dylib */; };
+		885249212F004E34870E415C /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A4ADCF1FC941BD8407A66A /* libz.dylib */; };
+		98551F2D3EDB49AC9757D76F /* Appodeal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C955560AEA504D9C8F8ACFCC /* Appodeal.framework */; };
+		30FBD8CA58FA48E68C50B98D /* AdColony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FB20A3F3F444EE484334553 /* AdColony.framework */; };
+		324949A4F3BF4FD89805743E /* AmazonAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9F5BF4A42AF40B7983AB1F2 /* AmazonAd.framework */; };
+		19507B3DBA694416B1B2E5CF /* AppLovinSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC65C68AA384702AC84ED58 /* AppLovinSdk.framework */; };
+		AEBB4CE83288455BA3E4CAD9 /* Chartboost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C1180B4AE74C2AA16AFCEF /* Chartboost.framework */; };
+		3D850AB6EEB141B9AB5A697D /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D770FCCEA0540DBBB550822 /* FBAudienceNetwork.framework */; };
+		7AA901A1457C432A97938770 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F5C2E9B256A4C5D9A6964ED /* GoogleMobileAds.framework */; };
+		7974CC25FA6248D88D84B790 /* InMobiSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 086072722BAE436D8EF6AAA2 /* InMobiSDK.framework */; };
+		C75F9427E93E4939BD3958F0 /* MyTargetSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D946E8F492C7444588225CDE /* MyTargetSDK.framework */; };
+		0A8300A05A124ED8AC101D20 /* StartApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C88CE754D9741899AD506E0 /* StartApp.framework */; };
+		6E339D360A744227AAFEF48B /* Tapjoy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02B6401770FF4BD5A595199C /* Tapjoy.framework */; };
+		28C37E0E25CC440EB975653A /* mopub-ios-sdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A8D2855ADF64D9087E3215B /* mopub-ios-sdk.framework */; };
+		270639FBA50E4707B6D2EF34 /* UnityAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FEC210F6CAE4942A81B78B9 /* UnityAds.framework */; };
+		2D7F777108C04B1B81DD2DF9 /* VungleSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627455F7713244469DDE24A9 /* VungleSDK.framework */; };
+		22DB357ADB544799B8D57FAB /* YandexMobileMetrica.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2E33D5E519C420EBB547E5B /* YandexMobileMetrica.framework */; };
+		DBB372B731CE4F69B1A6C42F /* YandexMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8F249DB98AC47D5AE67B448 /* YandexMobileAds.framework */; };
+		3D8DEB27E67F4A02B9C0BA8C /* CDVMarket.m in Sources */ = {isa = PBXBuildFile; fileRef = EB597BC888A74144BF47A6C7 /* CDVMarket.m */; };
+		4CAB53153CDF43938890E37A /* CDVLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = B62B9C245FC54724BDBBEE49 /* CDVLogger.m */; };
+		096CC73892514088A676BC8F /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 875AE9C40E4D4786B19C45AF /* CDVDevice.m */; };
+		2A8A9645BE8B42B4A1F96AE5 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EB53D21D31A649A5B13D95D8 /* libz.tbd */; };
+		C6501E60DF86461B85C81AD2 /* RMStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9DBE235C424ACFBA8E97F8 /* RMStore.m */; };
+		C5E5BE6AF80145E4AAE57505 /* PaymentsPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = E58059047B7B4A54B7292984 /* PaymentsPlugin.m */; };
+		559F6AC708D64B2F97EB7029 /* CDVConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = A383E0BFDFFF46989F29C30E /* CDVConnection.m */; };
+		6B6F604C5C4E43FFA7CFC538 /* CDVReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = FACC7EBCF4344A68913DC7FE /* CDVReachability.m */; };
+		DACD34C2876D482BB3A942A1 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03DFE61C5F14466094EE583A /* CoreTelephony.framework */; };
+		29B50A421CD1414A8BCA5AC8 /* CDVSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 2259357C728B48F7B7257FF0 /* CDVSplashScreen.m */; };
+		AE35E30F4BBB4E988E820871 /* CDVViewController+SplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E221E3A0A964720A3398011 /* CDVViewController+SplashScreen.m */; };
+		A95AAEAB478543588604FE81 /* CDVStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C8FBAF5D1E04C18B7E869CA /* CDVStatusBar.m */; };
+		3B30A9EA08FE4F3BAE1898D9 /* NSString+SSURLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E145027FB04A2BA8ECBE89 /* NSString+SSURLEncoding.m */; };
+		9C80937C95D84FE585DC3A2F /* SocialSharing.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C43D19B5D4C47A7A24DA7AF /* SocialSharing.m */; };
+		7076D1FB21DA4C1EA4287F7D /* XCDYouTubeClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A6CD77B079C944C3B2F855F7 /* XCDYouTubeClient.m */; };
+		1AFAD3CDFFA648D3AE66E537 /* XCDYouTubePlayerScript.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C44BDACE424540B2EB32F3 /* XCDYouTubePlayerScript.m */; };
+		8A28D6E2A3514E3E91ABED55 /* XCDYouTubeVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = B57841DD7ED34F50BD9ABBCA /* XCDYouTubeVideo.m */; };
+		D280A220B8DA41DDA3464B91 /* XCDYouTubeVideoOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 77135B4D06E240FB901D27DC /* XCDYouTubeVideoOperation.m */; };
+		DA6FFC3E1E95473395223B7C /* XCDYouTubeVideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98FFCE97CCA44755849EA938 /* XCDYouTubeVideoPlayerViewController.m */; };
+		2FB665485D044CCA9A54448E /* XCDYouTubeVideoWebpage.m in Sources */ = {isa = PBXBuildFile; fileRef = 236C2466FB0F4DF2860B607E /* XCDYouTubeVideoWebpage.m */; };
+		8744066F92FC435D8BB5EEDB /* YoutubeVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 01561C9604B941A29E00C26B /* YoutubeVideoPlayer.m */; };
+		A6830D4462144564B757D0FC /* SQLitePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C98D914D0A48DDAB7734D9 /* SQLitePlugin.m */; };
+		ACF134C7BB3E4AF5886F825A /* sqlite3.c in Resources */ = {isa = PBXBuildFile; fileRef = 2463D4540CFA4CA7B51806BA /* sqlite3.c */; settings = {COMPILER_FLAGS = "-DSQLITE_THREADSAFE=1 -DSQLITE_DEFAULT_MEMSTATUS=0 -DSQLITE_OMIT_DECLTYPE -DSQLITE_OMIT_DEPRECATED -DSQLITE_OMIT_PROGRESS_CALLBACK -DSQLITE_OMIT_SHARED_CACHE -DSQLITE_TEMP_STORE=2 -DSQLITE_OMIT_LOAD_EXTENSION -DSQLITE_ENABLE_FTS3 -DSQLITE_ENABLE_FTS3_PARENTHESIS -DSQLITE_ENABLE_FTS4 -DSQLITE_ENABLE_RTREE -DSQLITE_DEFAULT_PAGE_SIZE=1024 -DSQLITE_DEFAULT_CACHE_SIZE=2000"; }; };
+		9245C7F13C4648E385E35B28 /* IonicKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 84417135E9F4475AA48A8C39 /* IonicKeyboard.m */; };
+		72471967C32C4E44A5CEF911 /* OneSignalPush.h in Resources */ = {isa = PBXBuildFile; fileRef = B7CEF5894F634E2A91199B1B /* OneSignalPush.h */; };
+		7B6E0E12065C485BA31BC0AC /* OneSignalSelectorHelpers.h in Resources */ = {isa = PBXBuildFile; fileRef = 7E9A6BF2C07B403294D3AF49 /* OneSignalSelectorHelpers.h */; };
+		5A6E3D73023F492394CFEB34 /* UNUserNotificationCenter+OneSignal.h in Resources */ = {isa = PBXBuildFile; fileRef = 53D6AA7754714F5696E78BFD /* UNUserNotificationCenter+OneSignal.h */; };
+		CF9254C5655A4BF29CEE026A /* UIApplicationDelegate+OneSignal.h in Resources */ = {isa = PBXBuildFile; fileRef = 7245651248F74B30A3655752 /* UIApplicationDelegate+OneSignal.h */; };
+		7A9254A4E6414543A877A434 /* OneSignal.m in Sources */ = {isa = PBXBuildFile; fileRef = 02128A97E0594B7985EB660B /* OneSignal.m */; };
+		064A76170D8649B7B38FDDF0 /* OneSignalHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E75B2B7EAE4B0F8694C48E /* OneSignalHTTPClient.m */; };
+		4453B7E7BE9244FC840F3C77 /* OneSignalTrackIAP.m in Sources */ = {isa = PBXBuildFile; fileRef = 08628A58B00F4CA5AABDC403 /* OneSignalTrackIAP.m */; };
+		EE0913C3A98949A3B8D2F308 /* OneSignalJailbreakDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = 257272F58BDA45CD9AC76FDF /* OneSignalJailbreakDetection.m */; };
+		D5E440823EA0498BB88B7CBC /* OneSignalReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA85E120C0349CFB3E7FEB9 /* OneSignalReachability.m */; };
+		2827FC845C1A4AAC9F0FF49F /* OneSignalMobileProvision.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FC7B7D3AC44A31A66C6AEE /* OneSignalMobileProvision.m */; };
+		7BD7C6A9F1584BF4B24F344A /* OneSignalLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EBFBA81F564442389FAED8B /* OneSignalLocation.m */; };
+		9A2411C8112445548E93CB78 /* OneSignalAlertViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F034B240FDE942DB912B2475 /* OneSignalAlertViewDelegate.m */; };
+		B06BF92E389F4D70A519E826 /* OneSignalTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = FFCA6B119F154B299D3BA452 /* OneSignalTracker.m */; };
+		74CF32D2B04C48D9959A73DE /* OneSignalHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 417ED527A9F842969B8DA246 /* OneSignalHelper.m */; };
+		58329AAA5147459BBCB9F865 /* OneSignalWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = B681BC5EA7ED4E8D8A36C49B /* OneSignalWebView.m */; };
+		E27B6355D62B4486AC529F91 /* OneSignalPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDBF14DCB61402C9F894F57 /* OneSignalPush.m */; };
+		404793C9A21B42CBBA125E21 /* OneSignalSelectorHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 67204629377F4C1D8ABA5798 /* OneSignalSelectorHelpers.m */; };
+		448015D4BC2741CCBF465B60 /* UNUserNotificationCenter+OneSignal.m in Sources */ = {isa = PBXBuildFile; fileRef = D879E53625C14A16A920101C /* UNUserNotificationCenter+OneSignal.m */; };
+		E5A812BD82C64D4BA75117D9 /* UIApplicationDelegate+OneSignal.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C233EF32FAE4662911E05AA /* UIApplicationDelegate+OneSignal.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		301BF534109A57CC0062928A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = CordovaLib;
+		};
+		301BF550109A68C00062928A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = CordovaLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0207DA571B56EA530066E2B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "Memes BR - Sons para Whatsapp/Images.xcassets"; sourceTree = SOURCE_ROOT; };
+		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Memes BR - Sons para Whatsapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Memes BR - Sons para Whatsapp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
+		301BF56E109A69640062928A /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
+		302D95EE14D2391D003F00A1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		302D95EF14D2391D003F00A1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		302D95F014D2391D003F00A1 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		3047A50F1AB8059700498E2A /* build-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-debug.xcconfig"; path = cordova/build-debug.xcconfig; sourceTree = SOURCE_ROOT; };
+		3047A5101AB8059700498E2A /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-release.xcconfig"; path = cordova/build-release.xcconfig; sourceTree = SOURCE_ROOT; };
+		3047A5111AB8059700498E2A /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = build.xcconfig; path = cordova/build.xcconfig; sourceTree = SOURCE_ROOT; };
+		32CA4F630368D1EE00C91783 /* Memes BR - Sons para Whatsapp-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Memes BR - Sons para Whatsapp-Prefix.pch"; sourceTree = "<group>"; };
+		6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CDVLaunchScreen.storyboard; path = "Memes BR - Sons para Whatsapp/CDVLaunchScreen.storyboard"; sourceTree = SOURCE_ROOT; };
+		8D1107310486CEB800E47090 /* Memes BR - Sons para Whatsapp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Memes BR - Sons para Whatsapp-Info.plist"; path = "Memes BR - Sons para Whatsapp/Memes BR - Sons para Whatsapp-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = SOURCE_ROOT; };
+		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
+		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
+		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "Memes BR - Sons para Whatsapp/config.xml"; sourceTree = "<group>"; };
+		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		D25CFB163C244273ADB4BC4C /* AppodealPlugin.m */ = {isa = PBXFileReference; name = "AppodealPlugin.m"; path = "com.appodeal.plugin/AppodealPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		62F5033A415A4385AB036375 /* libAPDAdColonyAdapter.a */ = {isa = PBXFileReference; name = "libAPDAdColonyAdapter.a"; path = "Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin/libAPDAdColonyAdapter.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		E8EBBCBE1930465EBAD49FF7 /* libAPDAmazonAdsAdapter.a */ = {isa = PBXFileReference; name = "libAPDAmazonAdsAdapter.a"; path = "Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin/libAPDAmazonAdsAdapter.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		1D55D570E15745719927173F /* libAPDAppLovinAdapter.a */ = {isa = PBXFileReference; name = "libAPDAppLovinAdapter.a"; path = "Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin/libAPDAppLovinAdapter.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		57327E22CD5D42EFB67D7DAB /* libAPDChartboostAdapter.a */ = {isa = PBXFileReference; name = "libAPDChartboostAdapter.a"; path = "Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin/libAPDChartboostAdapter.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		5C3CEA335CF54F47B0FE23BC /* libAPDFacebookAudienceAdapter.a */ = {isa = PBXFileReference; name = "libAPDFacebookAudienceAdapter.a"; path = "Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin/libAPDFacebookAudienceAdapter.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		5F56F8F827BB4EB19574AC24 /* libAPDGoogleAdMobAdapter.a */ = {isa = PBXFileReference; name = "libAPDGoogleAdMobAdapter.a"; path = "Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin/libAPDGoogleAdMobAdapter.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		E2B88FC9CD3A42628AF0B930 /* libAPDInMobyAdapter.a */ = {isa = PBXFileReference; name = "libAPDInMobyAdapter.a"; path = "Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin/libAPDInMobyAdapter.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		4811098FF56D4B95A7F491D3 /* libAPDMyTargetAdapter.a */ = {isa = PBXFileReference; name = "libAPDMyTargetAdapter.a"; path = "Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin/libAPDMyTargetAdapter.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		728D453E7D6340248EAE3524 /* libAPDStartAppAdapter.a */ = {isa = PBXFileReference; name = "libAPDStartAppAdapter.a"; path = "Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin/libAPDStartAppAdapter.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		AF3E7C284B7F47B88F50E163 /* libAPDTapjoyAdapter.a */ = {isa = PBXFileReference; name = "libAPDTapjoyAdapter.a"; path = "Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin/libAPDTapjoyAdapter.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		396F712ACBF1470C899F8B60 /* libAPDTwitterMoPubAdapter.a */ = {isa = PBXFileReference; name = "libAPDTwitterMoPubAdapter.a"; path = "Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin/libAPDTwitterMoPubAdapter.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		81DB31E4D4D64C69BB351EEA /* libAPDUnityAdapter.a */ = {isa = PBXFileReference; name = "libAPDUnityAdapter.a"; path = "Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin/libAPDUnityAdapter.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		55D7FADD31AA4F2DB38279B2 /* libAPDVungleAdapter.a */ = {isa = PBXFileReference; name = "libAPDVungleAdapter.a"; path = "Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin/libAPDVungleAdapter.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		B850677514E94B8B877D9413 /* libAPDYandexAdapter.a */ = {isa = PBXFileReference; name = "libAPDYandexAdapter.a"; path = "Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin/libAPDYandexAdapter.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		50744E0F46584A8ABFF1F6BA /* AppodealPlugin.h */ = {isa = PBXFileReference; name = "AppodealPlugin.h"; path = "com.appodeal.plugin/AppodealPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		F8886AE13BCF43019BC441AB /* Appodeal.bundle */ = {isa = PBXFileReference; name = "Appodeal.bundle"; path = "Appodeal.bundle"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.plug-in; explicitFileType = undefined; includeInIndex = 0; };
+		7107C2C56BD3463493C672AD /* StartApp.bundle */ = {isa = PBXFileReference; name = "StartApp.bundle"; path = "StartApp.bundle"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.plug-in; explicitFileType = undefined; includeInIndex = 0; };
+		D0015B56AC0A4C2F977C4AC3 /* TapjoyResources.bundle */ = {isa = PBXFileReference; name = "TapjoyResources.bundle"; path = "TapjoyResources.bundle"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.plug-in; explicitFileType = undefined; includeInIndex = 0; };
+		46E073EC81024EB8A7EA9D8A /* MPCloseBtn.png */ = {isa = PBXFileReference; name = "MPCloseBtn.png"; path = "MPCloseBtn.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		96A3626613794B7C8F6D62F9 /* MPCloseBtn@2x.png */ = {isa = PBXFileReference; name = "MPCloseBtn@2x.png"; path = "MPCloseBtn@2x.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C27A59CF51AB4120960500D5 /* MPCloseBtn@3x.png */ = {isa = PBXFileReference; name = "MPCloseBtn@3x.png"; path = "MPCloseBtn@3x.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FDBFA91995AC419BAB936AB9 /* MPCloseButtonX.png */ = {isa = PBXFileReference; name = "MPCloseButtonX.png"; path = "MPCloseButtonX.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E65F04C17C2C463AA7878308 /* MPCloseButtonX@2x.png */ = {isa = PBXFileReference; name = "MPCloseButtonX@2x.png"; path = "MPCloseButtonX@2x.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		333CF1BDC5B941E6A8A3D8C6 /* MPCloseButtonX@3x.png */ = {isa = PBXFileReference; name = "MPCloseButtonX@3x.png"; path = "MPCloseButtonX@3x.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5F857788055144318D0EDFA9 /* MPDAAIcon.png */ = {isa = PBXFileReference; name = "MPDAAIcon.png"; path = "MPDAAIcon.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6AD11E10FF7D425CA20538CF /* MPDAAIcon@2x.png */ = {isa = PBXFileReference; name = "MPDAAIcon@2x.png"; path = "MPDAAIcon@2x.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C048540C3F944DFFA5602EF7 /* MPDAAIcon@3x.png */ = {isa = PBXFileReference; name = "MPDAAIcon@3x.png"; path = "MPDAAIcon@3x.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4E1D1E2965E54D428D3071D0 /* MPMutedBtn.png */ = {isa = PBXFileReference; name = "MPMutedBtn.png"; path = "MPMutedBtn.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D9E5DE57FA9E423CBF2A33E8 /* MPMutedBtn@2x.png */ = {isa = PBXFileReference; name = "MPMutedBtn@2x.png"; path = "MPMutedBtn@2x.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EC791BFAE5CD49F6A3313D91 /* MPMutedBtn@3x.png */ = {isa = PBXFileReference; name = "MPMutedBtn@3x.png"; path = "MPMutedBtn@3x.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AC7C4CE2749D41D48640A4FA /* MPPlayBtn.png */ = {isa = PBXFileReference; name = "MPPlayBtn.png"; path = "MPPlayBtn.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BAD67787E05E4B4DB9073642 /* MPPlayBtn@2x.png */ = {isa = PBXFileReference; name = "MPPlayBtn@2x.png"; path = "MPPlayBtn@2x.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A8C766421F2149E6A807ED51 /* MPPlayBtn@3x.png */ = {isa = PBXFileReference; name = "MPPlayBtn@3x.png"; path = "MPPlayBtn@3x.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FAEFDFCD028F437087CE131A /* MPUnmutedBtn.png */ = {isa = PBXFileReference; name = "MPUnmutedBtn.png"; path = "MPUnmutedBtn.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E4D9E1576B2D42E1B6FF1AF2 /* MPUnmutedBtn@2x.png */ = {isa = PBXFileReference; name = "MPUnmutedBtn@2x.png"; path = "MPUnmutedBtn@2x.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8AEE48E9F5C6463491A0C67C /* MPUnmutedBtn@3x.png */ = {isa = PBXFileReference; name = "MPUnmutedBtn@3x.png"; path = "MPUnmutedBtn@3x.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4A96FD2939BA4F479815CC51 /* MRAID.bundle */ = {isa = PBXFileReference; name = "MRAID.bundle"; path = "MRAID.bundle"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.plug-in; explicitFileType = undefined; includeInIndex = 0; };
+		162E92D541BE436CBDE93570 /* MPAdBrowserController.xib */ = {isa = PBXFileReference; name = "MPAdBrowserController.xib"; path = "MPAdBrowserController.xib"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = file.xib; explicitFileType = undefined; includeInIndex = 0; };
+		D67B19B3784B444290CA51A8 /* UnityAds.bundle */ = {isa = PBXFileReference; name = "UnityAds.bundle"; path = "UnityAds.bundle"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.plug-in; explicitFileType = undefined; includeInIndex = 0; };
+		0FC93130F9DF42EFA8D31AC4 /* __vungle.db */ = {isa = PBXFileReference; name = "__vungle.db"; path = "__vungle.db"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		92686E2CA1784459A41EA509 /* vg_close.png */ = {isa = PBXFileReference; name = "vg_close.png"; path = "vg_close.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F2686B6835E143B79BE7E85B /* vg_cta.png */ = {isa = PBXFileReference; name = "vg_cta.png"; path = "vg_cta.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3D9FE663578B45BEB9883B14 /* vg_mute_off.png */ = {isa = PBXFileReference; name = "vg_mute_off.png"; path = "vg_mute_off.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		42DC648C4A3B481C95391DC2 /* vg_mute_on.png */ = {isa = PBXFileReference; name = "vg_mute_on.png"; path = "vg_mute_on.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		571DC0FB9C9C4A32AFB82B6C /* vg_privacy.png */ = {isa = PBXFileReference; name = "vg_privacy.png"; path = "vg_privacy.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		00C1013A811E4EE0AE278F39 /* AdSupport.framework */ = {isa = PBXFileReference; name = "AdSupport.framework"; path = "System/Library/Frameworks/AdSupport.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		E6591792F13E4B88B4BFFFA1 /* AudioToolbox.framework */ = {isa = PBXFileReference; name = "AudioToolbox.framework"; path = "System/Library/Frameworks/AudioToolbox.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		C6F4F8AEDAFA42679E6157A2 /* AVFoundation.framework */ = {isa = PBXFileReference; name = "AVFoundation.framework"; path = "System/Library/Frameworks/AVFoundation.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		A03FDD3FAD664CBEBB7AEB21 /* CFNetwork.framework */ = {isa = PBXFileReference; name = "CFNetwork.framework"; path = "System/Library/Frameworks/CFNetwork.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		50166E5CF7114BC9852201AA /* CoreFoundation.framework */ = {isa = PBXFileReference; name = "CoreFoundation.framework"; path = "System/Library/Frameworks/CoreFoundation.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		4F20E8D33D1C416795F51413 /* CoreImage.framework */ = {isa = PBXFileReference; name = "CoreImage.framework"; path = "System/Library/Frameworks/CoreImage.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		36F8316DCDF44CF398BB751D /* CoreLocation.framework */ = {isa = PBXFileReference; name = "CoreLocation.framework"; path = "System/Library/Frameworks/CoreLocation.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		B17BC4869BE94F8DAA8C4A46 /* CoreMedia.framework */ = {isa = PBXFileReference; name = "CoreMedia.framework"; path = "System/Library/Frameworks/CoreMedia.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		67F3BBB743AF49D79C6C43B6 /* CoreMotion.framework */ = {isa = PBXFileReference; name = "CoreMotion.framework"; path = "System/Library/Frameworks/CoreMotion.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		B7F89EC5F3F34958B32F00CC /* EventKit.framework */ = {isa = PBXFileReference; name = "EventKit.framework"; path = "System/Library/Frameworks/EventKit.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		79B803D3B95143F497ABEF53 /* EventKitUI.framework */ = {isa = PBXFileReference; name = "EventKitUI.framework"; path = "System/Library/Frameworks/EventKitUI.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		159DD513BB9F40688F64D0D8 /* JavaScriptCore.framework */ = {isa = PBXFileReference; name = "JavaScriptCore.framework"; path = "System/Library/Frameworks/JavaScriptCore.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		B4A44B617CB34BCF9D7D397C /* MediaPlayer.framework */ = {isa = PBXFileReference; name = "MediaPlayer.framework"; path = "System/Library/Frameworks/MediaPlayer.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		D6B2E8DE649B4605A66BFF2D /* MessageUI.framework */ = {isa = PBXFileReference; name = "MessageUI.framework"; path = "System/Library/Frameworks/MessageUI.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		6E0BD0F1330B4BF8BDBDC712 /* QuartzCore.framework */ = {isa = PBXFileReference; name = "QuartzCore.framework"; path = "System/Library/Frameworks/QuartzCore.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		10C4B66B392A49C4AFCC6540 /* Security.framework */ = {isa = PBXFileReference; name = "Security.framework"; path = "System/Library/Frameworks/Security.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		4E70B2EBEEAA4087817DD5DB /* Social.framework */ = {isa = PBXFileReference; name = "Social.framework"; path = "System/Library/Frameworks/Social.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		D11E25C0E9EB4EAFB15ABA14 /* StoreKit.framework */ = {isa = PBXFileReference; name = "StoreKit.framework"; path = "System/Library/Frameworks/StoreKit.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		4D43EFE0DBD54E709312217C /* SafariServices.framework */ = {isa = PBXFileReference; name = "SafariServices.framework"; path = "System/Library/Frameworks/SafariServices.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		92C80D61AEC94579A9349242 /* SystemConfiguration.framework */ = {isa = PBXFileReference; name = "SystemConfiguration.framework"; path = "System/Library/Frameworks/SystemConfiguration.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		105F13F81E2D4BB089FA18E6 /* Twitter.framework */ = {isa = PBXFileReference; name = "Twitter.framework"; path = "System/Library/Frameworks/Twitter.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		E33E230BFDA14E26BE8978DD /* UIKit.framework */ = {isa = PBXFileReference; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		1302BC9122844CADA46A4057 /* WebKit.framework */ = {isa = PBXFileReference; name = "WebKit.framework"; path = "System/Library/Frameworks/WebKit.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		7088A4BCA99A45E1A0D4C1B4 /* CoreBluetooth.framework */ = {isa = PBXFileReference; name = "CoreBluetooth.framework"; path = "System/Library/Frameworks/CoreBluetooth.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		77A3F51D39E6485CBE38F5C7 /* GLKit.framework */ = {isa = PBXFileReference; name = "GLKit.framework"; path = "System/Library/Frameworks/GLKit.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		8B7DBE25A8054F099ABDF3F2 /* libc++.dylib */ = {isa = PBXFileReference; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = compiled.mach-o.dylib; explicitFileType = undefined; includeInIndex = 0; };
+		DD0D277119F644B89FEE2DA0 /* libsqlite3.dylib */ = {isa = PBXFileReference; name = "libsqlite3.dylib"; path = "usr/lib/libsqlite3.dylib"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = compiled.mach-o.dylib; explicitFileType = undefined; includeInIndex = 0; };
+		D580B4F4C749416CAD05CF34 /* libxml2.2.dylib */ = {isa = PBXFileReference; name = "libxml2.2.dylib"; path = "usr/lib/libxml2.2.dylib"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = compiled.mach-o.dylib; explicitFileType = undefined; includeInIndex = 0; };
+		B3A4ADCF1FC941BD8407A66A /* libz.dylib */ = {isa = PBXFileReference; name = "libz.dylib"; path = "usr/lib/libz.dylib"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = compiled.mach-o.dylib; explicitFileType = undefined; includeInIndex = 0; };
+		C955560AEA504D9C8F8ACFCC /* Appodeal.framework */ = {isa = PBXFileReference; name = "Appodeal.framework"; path = "Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin/Appodeal.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		0FB20A3F3F444EE484334553 /* AdColony.framework */ = {isa = PBXFileReference; name = "AdColony.framework"; path = "Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin/AdColony.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		B9F5BF4A42AF40B7983AB1F2 /* AmazonAd.framework */ = {isa = PBXFileReference; name = "AmazonAd.framework"; path = "Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin/AmazonAd.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		EAC65C68AA384702AC84ED58 /* AppLovinSdk.framework */ = {isa = PBXFileReference; name = "AppLovinSdk.framework"; path = "Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin/AppLovinSdk.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		22C1180B4AE74C2AA16AFCEF /* Chartboost.framework */ = {isa = PBXFileReference; name = "Chartboost.framework"; path = "Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin/Chartboost.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		4D770FCCEA0540DBBB550822 /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; name = "FBAudienceNetwork.framework"; path = "Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin/FBAudienceNetwork.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		3F5C2E9B256A4C5D9A6964ED /* GoogleMobileAds.framework */ = {isa = PBXFileReference; name = "GoogleMobileAds.framework"; path = "Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin/GoogleMobileAds.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		086072722BAE436D8EF6AAA2 /* InMobiSDK.framework */ = {isa = PBXFileReference; name = "InMobiSDK.framework"; path = "Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin/InMobiSDK.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		D946E8F492C7444588225CDE /* MyTargetSDK.framework */ = {isa = PBXFileReference; name = "MyTargetSDK.framework"; path = "Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin/MyTargetSDK.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		8C88CE754D9741899AD506E0 /* StartApp.framework */ = {isa = PBXFileReference; name = "StartApp.framework"; path = "Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin/StartApp.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		02B6401770FF4BD5A595199C /* Tapjoy.framework */ = {isa = PBXFileReference; name = "Tapjoy.framework"; path = "Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin/Tapjoy.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		1A8D2855ADF64D9087E3215B /* mopub-ios-sdk.framework */ = {isa = PBXFileReference; name = "mopub-ios-sdk.framework"; path = "Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin/mopub-ios-sdk.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		5FEC210F6CAE4942A81B78B9 /* UnityAds.framework */ = {isa = PBXFileReference; name = "UnityAds.framework"; path = "Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin/UnityAds.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		627455F7713244469DDE24A9 /* VungleSDK.framework */ = {isa = PBXFileReference; name = "VungleSDK.framework"; path = "Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin/VungleSDK.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		A2E33D5E519C420EBB547E5B /* YandexMobileMetrica.framework */ = {isa = PBXFileReference; name = "YandexMobileMetrica.framework"; path = "Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin/YandexMobileMetrica.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		F8F249DB98AC47D5AE67B448 /* YandexMobileAds.framework */ = {isa = PBXFileReference; name = "YandexMobileAds.framework"; path = "Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin/YandexMobileAds.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		EB597BC888A74144BF47A6C7 /* CDVMarket.m */ = {isa = PBXFileReference; name = "CDVMarket.m"; path = "com.xmartlabs.cordova.market/CDVMarket.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		9A9C95D5F2A44A27B147BAB7 /* CDVMarket.h */ = {isa = PBXFileReference; name = "CDVMarket.h"; path = "com.xmartlabs.cordova.market/CDVMarket.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		B62B9C245FC54724BDBBEE49 /* CDVLogger.m */ = {isa = PBXFileReference; name = "CDVLogger.m"; path = "cordova-plugin-console/CDVLogger.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		25990E2E14DF4743A34F238D /* CDVLogger.h */ = {isa = PBXFileReference; name = "CDVLogger.h"; path = "cordova-plugin-console/CDVLogger.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		875AE9C40E4D4786B19C45AF /* CDVDevice.m */ = {isa = PBXFileReference; name = "CDVDevice.m"; path = "cordova-plugin-device/CDVDevice.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		3B594A53A5EA4A64BB32CA8C /* CDVDevice.h */ = {isa = PBXFileReference; name = "CDVDevice.h"; path = "cordova-plugin-device/CDVDevice.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		EB53D21D31A649A5B13D95D8 /* libz.tbd */ = {isa = PBXFileReference; name = "libz.tbd"; path = "usr/lib/libz.tbd"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = sourcecode.text-based-dylib-definition; explicitFileType = undefined; includeInIndex = 0; };
+		4F9DBE235C424ACFBA8E97F8 /* RMStore.m */ = {isa = PBXFileReference; name = "RMStore.m"; path = "cordova-plugin-inapppurchase/RMStore.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		E58059047B7B4A54B7292984 /* PaymentsPlugin.m */ = {isa = PBXFileReference; name = "PaymentsPlugin.m"; path = "cordova-plugin-inapppurchase/PaymentsPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		3CF912B6459F4C56BBF2A81D /* RMStore.h */ = {isa = PBXFileReference; name = "RMStore.h"; path = "cordova-plugin-inapppurchase/RMStore.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		AFC1F33B36774F9BBD332B01 /* PaymentsPlugin.h */ = {isa = PBXFileReference; name = "PaymentsPlugin.h"; path = "cordova-plugin-inapppurchase/PaymentsPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		A383E0BFDFFF46989F29C30E /* CDVConnection.m */ = {isa = PBXFileReference; name = "CDVConnection.m"; path = "cordova-plugin-network-information/CDVConnection.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		FACC7EBCF4344A68913DC7FE /* CDVReachability.m */ = {isa = PBXFileReference; name = "CDVReachability.m"; path = "cordova-plugin-network-information/CDVReachability.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		9C72F54C0EAA4AF496A65DF0 /* CDVConnection.h */ = {isa = PBXFileReference; name = "CDVConnection.h"; path = "cordova-plugin-network-information/CDVConnection.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		23A8CBCB6C3A4018B7501C51 /* CDVReachability.h */ = {isa = PBXFileReference; name = "CDVReachability.h"; path = "cordova-plugin-network-information/CDVReachability.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		03DFE61C5F14466094EE583A /* CoreTelephony.framework */ = {isa = PBXFileReference; name = "CoreTelephony.framework"; path = "System/Library/Frameworks/CoreTelephony.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		2259357C728B48F7B7257FF0 /* CDVSplashScreen.m */ = {isa = PBXFileReference; name = "CDVSplashScreen.m"; path = "cordova-plugin-splashscreen/CDVSplashScreen.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		0E221E3A0A964720A3398011 /* CDVViewController+SplashScreen.m */ = {isa = PBXFileReference; name = "CDVViewController+SplashScreen.m"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		F8A3DFA955DA4FB0A04BA980 /* CDVSplashScreen.h */ = {isa = PBXFileReference; name = "CDVSplashScreen.h"; path = "cordova-plugin-splashscreen/CDVSplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		CE930987D08943F1A6964B67 /* CDVViewController+SplashScreen.h */ = {isa = PBXFileReference; name = "CDVViewController+SplashScreen.h"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		5C8FBAF5D1E04C18B7E869CA /* CDVStatusBar.m */ = {isa = PBXFileReference; name = "CDVStatusBar.m"; path = "cordova-plugin-statusbar/CDVStatusBar.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		AD51844821C44DEEBAECC611 /* CDVStatusBar.h */ = {isa = PBXFileReference; name = "CDVStatusBar.h"; path = "cordova-plugin-statusbar/CDVStatusBar.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		F6E145027FB04A2BA8ECBE89 /* NSString+SSURLEncoding.m */ = {isa = PBXFileReference; name = "NSString+SSURLEncoding.m"; path = "cordova-plugin-x-socialsharing/NSString+SSURLEncoding.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		2C43D19B5D4C47A7A24DA7AF /* SocialSharing.m */ = {isa = PBXFileReference; name = "SocialSharing.m"; path = "cordova-plugin-x-socialsharing/SocialSharing.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		6D3C25F1A81F44A993D22D7B /* NSString+SSURLEncoding.h */ = {isa = PBXFileReference; name = "NSString+SSURLEncoding.h"; path = "cordova-plugin-x-socialsharing/NSString+SSURLEncoding.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		87A490A6C83D49C58C794958 /* SocialSharing.h */ = {isa = PBXFileReference; name = "SocialSharing.h"; path = "cordova-plugin-x-socialsharing/SocialSharing.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		A6CD77B079C944C3B2F855F7 /* XCDYouTubeClient.m */ = {isa = PBXFileReference; name = "XCDYouTubeClient.m"; path = "cordova-plugin-youtube-video-player/XCDYouTubeClient.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		E1C44BDACE424540B2EB32F3 /* XCDYouTubePlayerScript.m */ = {isa = PBXFileReference; name = "XCDYouTubePlayerScript.m"; path = "cordova-plugin-youtube-video-player/XCDYouTubePlayerScript.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		B57841DD7ED34F50BD9ABBCA /* XCDYouTubeVideo.m */ = {isa = PBXFileReference; name = "XCDYouTubeVideo.m"; path = "cordova-plugin-youtube-video-player/XCDYouTubeVideo.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		77135B4D06E240FB901D27DC /* XCDYouTubeVideoOperation.m */ = {isa = PBXFileReference; name = "XCDYouTubeVideoOperation.m"; path = "cordova-plugin-youtube-video-player/XCDYouTubeVideoOperation.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		98FFCE97CCA44755849EA938 /* XCDYouTubeVideoPlayerViewController.m */ = {isa = PBXFileReference; name = "XCDYouTubeVideoPlayerViewController.m"; path = "cordova-plugin-youtube-video-player/XCDYouTubeVideoPlayerViewController.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		236C2466FB0F4DF2860B607E /* XCDYouTubeVideoWebpage.m */ = {isa = PBXFileReference; name = "XCDYouTubeVideoWebpage.m"; path = "cordova-plugin-youtube-video-player/XCDYouTubeVideoWebpage.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		01561C9604B941A29E00C26B /* YoutubeVideoPlayer.m */ = {isa = PBXFileReference; name = "YoutubeVideoPlayer.m"; path = "cordova-plugin-youtube-video-player/YoutubeVideoPlayer.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		8B7D774252CC4AE0A76F86AC /* XCDYouTubeClient.h */ = {isa = PBXFileReference; name = "XCDYouTubeClient.h"; path = "cordova-plugin-youtube-video-player/XCDYouTubeClient.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		780C5591B10D4F42976599AB /* XCDYouTubeError.h */ = {isa = PBXFileReference; name = "XCDYouTubeError.h"; path = "cordova-plugin-youtube-video-player/XCDYouTubeError.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		1248D3C0936E45698C562B16 /* XCDYouTubeKit.h */ = {isa = PBXFileReference; name = "XCDYouTubeKit.h"; path = "cordova-plugin-youtube-video-player/XCDYouTubeKit.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		F315A302D1A9450B917AAAEA /* XCDYouTubeOperation.h */ = {isa = PBXFileReference; name = "XCDYouTubeOperation.h"; path = "cordova-plugin-youtube-video-player/XCDYouTubeOperation.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		ABDED57A5D5C4FE6A092D775 /* XCDYouTubePlayerScript.h */ = {isa = PBXFileReference; name = "XCDYouTubePlayerScript.h"; path = "cordova-plugin-youtube-video-player/XCDYouTubePlayerScript.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		266A23B45BE64FBCB7DFCBA1 /* XCDYouTubeVideo.h */ = {isa = PBXFileReference; name = "XCDYouTubeVideo.h"; path = "cordova-plugin-youtube-video-player/XCDYouTubeVideo.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		6A90960341E14BBFB1B180BC /* XCDYouTubeVideo+Private.h */ = {isa = PBXFileReference; name = "XCDYouTubeVideo+Private.h"; path = "cordova-plugin-youtube-video-player/XCDYouTubeVideo+Private.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		727DB04135314F04A38E6867 /* XCDYouTubeVideoOperation.h */ = {isa = PBXFileReference; name = "XCDYouTubeVideoOperation.h"; path = "cordova-plugin-youtube-video-player/XCDYouTubeVideoOperation.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		7BB5D72263764B619840B1B1 /* XCDYouTubeVideoPlayerViewController.h */ = {isa = PBXFileReference; name = "XCDYouTubeVideoPlayerViewController.h"; path = "cordova-plugin-youtube-video-player/XCDYouTubeVideoPlayerViewController.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		3D025B0F389B4F1B94E501BB /* XCDYouTubeVideoWebpage.h */ = {isa = PBXFileReference; name = "XCDYouTubeVideoWebpage.h"; path = "cordova-plugin-youtube-video-player/XCDYouTubeVideoWebpage.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		51EEEFC476F14A6D95D235A7 /* YoutubeVideoPlayer.h */ = {isa = PBXFileReference; name = "YoutubeVideoPlayer.h"; path = "cordova-plugin-youtube-video-player/YoutubeVideoPlayer.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		44C98D914D0A48DDAB7734D9 /* SQLitePlugin.m */ = {isa = PBXFileReference; name = "SQLitePlugin.m"; path = "cordova-sqlite-storage/SQLitePlugin.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		2463D4540CFA4CA7B51806BA /* sqlite3.c */ = {isa = PBXFileReference; name = "sqlite3.c"; path = "cordova-sqlite-storage/sqlite3.c"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CF27590A37CD410F9FF42235 /* SQLitePlugin.h */ = {isa = PBXFileReference; name = "SQLitePlugin.h"; path = "cordova-sqlite-storage/SQLitePlugin.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		EDE0223A00A1491FB4E4AF3E /* sqlite3.h */ = {isa = PBXFileReference; name = "sqlite3.h"; path = "cordova-sqlite-storage/sqlite3.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		84417135E9F4475AA48A8C39 /* IonicKeyboard.m */ = {isa = PBXFileReference; name = "IonicKeyboard.m"; path = "ionic-plugin-keyboard/IonicKeyboard.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		BAA64369E83A41F487062BA5 /* IonicKeyboard.h */ = {isa = PBXFileReference; name = "IonicKeyboard.h"; path = "ionic-plugin-keyboard/IonicKeyboard.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		B7CEF5894F634E2A91199B1B /* OneSignalPush.h */ = {isa = PBXFileReference; name = "OneSignalPush.h"; path = "onesignal-cordova-plugin/OneSignalPush.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		7E9A6BF2C07B403294D3AF49 /* OneSignalSelectorHelpers.h */ = {isa = PBXFileReference; name = "OneSignalSelectorHelpers.h"; path = "onesignal-cordova-plugin/OneSignalSelectorHelpers.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		53D6AA7754714F5696E78BFD /* UNUserNotificationCenter+OneSignal.h */ = {isa = PBXFileReference; name = "UNUserNotificationCenter+OneSignal.h"; path = "onesignal-cordova-plugin/UNUserNotificationCenter+OneSignal.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		7245651248F74B30A3655752 /* UIApplicationDelegate+OneSignal.h */ = {isa = PBXFileReference; name = "UIApplicationDelegate+OneSignal.h"; path = "onesignal-cordova-plugin/UIApplicationDelegate+OneSignal.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		02128A97E0594B7985EB660B /* OneSignal.m */ = {isa = PBXFileReference; name = "OneSignal.m"; path = "onesignal-cordova-plugin/OneSignal.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		78E75B2B7EAE4B0F8694C48E /* OneSignalHTTPClient.m */ = {isa = PBXFileReference; name = "OneSignalHTTPClient.m"; path = "onesignal-cordova-plugin/OneSignalHTTPClient.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		08628A58B00F4CA5AABDC403 /* OneSignalTrackIAP.m */ = {isa = PBXFileReference; name = "OneSignalTrackIAP.m"; path = "onesignal-cordova-plugin/OneSignalTrackIAP.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		257272F58BDA45CD9AC76FDF /* OneSignalJailbreakDetection.m */ = {isa = PBXFileReference; name = "OneSignalJailbreakDetection.m"; path = "onesignal-cordova-plugin/OneSignalJailbreakDetection.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		6AA85E120C0349CFB3E7FEB9 /* OneSignalReachability.m */ = {isa = PBXFileReference; name = "OneSignalReachability.m"; path = "onesignal-cordova-plugin/OneSignalReachability.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		80FC7B7D3AC44A31A66C6AEE /* OneSignalMobileProvision.m */ = {isa = PBXFileReference; name = "OneSignalMobileProvision.m"; path = "onesignal-cordova-plugin/OneSignalMobileProvision.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		3EBFBA81F564442389FAED8B /* OneSignalLocation.m */ = {isa = PBXFileReference; name = "OneSignalLocation.m"; path = "onesignal-cordova-plugin/OneSignalLocation.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		F034B240FDE942DB912B2475 /* OneSignalAlertViewDelegate.m */ = {isa = PBXFileReference; name = "OneSignalAlertViewDelegate.m"; path = "onesignal-cordova-plugin/OneSignalAlertViewDelegate.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		FFCA6B119F154B299D3BA452 /* OneSignalTracker.m */ = {isa = PBXFileReference; name = "OneSignalTracker.m"; path = "onesignal-cordova-plugin/OneSignalTracker.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		417ED527A9F842969B8DA246 /* OneSignalHelper.m */ = {isa = PBXFileReference; name = "OneSignalHelper.m"; path = "onesignal-cordova-plugin/OneSignalHelper.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		B681BC5EA7ED4E8D8A36C49B /* OneSignalWebView.m */ = {isa = PBXFileReference; name = "OneSignalWebView.m"; path = "onesignal-cordova-plugin/OneSignalWebView.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		0DDBF14DCB61402C9F894F57 /* OneSignalPush.m */ = {isa = PBXFileReference; name = "OneSignalPush.m"; path = "onesignal-cordova-plugin/OneSignalPush.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		67204629377F4C1D8ABA5798 /* OneSignalSelectorHelpers.m */ = {isa = PBXFileReference; name = "OneSignalSelectorHelpers.m"; path = "onesignal-cordova-plugin/OneSignalSelectorHelpers.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		D879E53625C14A16A920101C /* UNUserNotificationCenter+OneSignal.m */ = {isa = PBXFileReference; name = "UNUserNotificationCenter+OneSignal.m"; path = "onesignal-cordova-plugin/UNUserNotificationCenter+OneSignal.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		5C233EF32FAE4662911E05AA /* UIApplicationDelegate+OneSignal.m */ = {isa = PBXFileReference; name = "UIApplicationDelegate+OneSignal.m"; path = "onesignal-cordova-plugin/UIApplicationDelegate+OneSignal.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		9C63A4E26E7E4C48AD74CEAC /* OneSignal.h */ = {isa = PBXFileReference; name = "OneSignal.h"; path = "onesignal-cordova-plugin/OneSignal.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		A4CB54EBF2044D5B82E239D3 /* OneSignalHTTPClient.h */ = {isa = PBXFileReference; name = "OneSignalHTTPClient.h"; path = "onesignal-cordova-plugin/OneSignalHTTPClient.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		4A8A015A4F58406FB37CE8F5 /* OneSignalTrackIAP.h */ = {isa = PBXFileReference; name = "OneSignalTrackIAP.h"; path = "onesignal-cordova-plugin/OneSignalTrackIAP.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		BDD4332CDDD743E39125DD35 /* OneSignalJailbreakDetection.h */ = {isa = PBXFileReference; name = "OneSignalJailbreakDetection.h"; path = "onesignal-cordova-plugin/OneSignalJailbreakDetection.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		5404903A096A4104BA76972B /* OneSignalReachability.h */ = {isa = PBXFileReference; name = "OneSignalReachability.h"; path = "onesignal-cordova-plugin/OneSignalReachability.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		C6D5FC761D7A4A03AC0518B9 /* OneSignalMobileProvision.h */ = {isa = PBXFileReference; name = "OneSignalMobileProvision.h"; path = "onesignal-cordova-plugin/OneSignalMobileProvision.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		C84DEF1472364B709F6A2F9C /* OneSignalLocation.h */ = {isa = PBXFileReference; name = "OneSignalLocation.h"; path = "onesignal-cordova-plugin/OneSignalLocation.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		DD5031CA6CEA4F21B3F4DDFC /* OneSignalAlertViewDelegate.h */ = {isa = PBXFileReference; name = "OneSignalAlertViewDelegate.h"; path = "onesignal-cordova-plugin/OneSignalAlertViewDelegate.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		A16B0AD0B70345F48B248C1A /* OneSignalHelper.h */ = {isa = PBXFileReference; name = "OneSignalHelper.h"; path = "onesignal-cordova-plugin/OneSignalHelper.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		9A2EF0AC494843AD8140EC31 /* OneSignalTracker.h */ = {isa = PBXFileReference; name = "OneSignalTracker.h"; path = "onesignal-cordova-plugin/OneSignalTracker.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		F5E8AFAC0E8E4F4A8BABB596 /* OneSignalWebView.h */ = {isa = PBXFileReference; name = "OneSignalWebView.h"; path = "onesignal-cordova-plugin/OneSignalWebView.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		2A8E6ECFFF9443B6A3EBDBCF /* OneSignal-Prefix.pch */ = {isa = PBXFileReference; name = "OneSignal-Prefix.pch"; path = "onesignal-cordova-plugin/OneSignal-Prefix.pch"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
+				43B957EDABE44E45A288B8F0 /* libAPDAdColonyAdapter.a in Frameworks */,
+				0F6EAF03C4344EA58831EA0B /* libAPDAmazonAdsAdapter.a in Frameworks */,
+				464F62FC857F4D0F974FE1AA /* libAPDAppLovinAdapter.a in Frameworks */,
+				C2F12B269A5F42C18D46C934 /* libAPDChartboostAdapter.a in Frameworks */,
+				501D9695CA774DAA82234997 /* libAPDFacebookAudienceAdapter.a in Frameworks */,
+				4450D425C5694A32B05DBB3A /* libAPDGoogleAdMobAdapter.a in Frameworks */,
+				11080671FC194097B59E08EE /* libAPDInMobyAdapter.a in Frameworks */,
+				17F1BCA30EF14D6F85E8DF9D /* libAPDMyTargetAdapter.a in Frameworks */,
+				FB2F9670B8CB43CA90F58A69 /* libAPDStartAppAdapter.a in Frameworks */,
+				DD31FBC2ECC3437991623A80 /* libAPDTapjoyAdapter.a in Frameworks */,
+				1C8A503B0677483B828ED35D /* libAPDTwitterMoPubAdapter.a in Frameworks */,
+				95D658182D19417B85B958EE /* libAPDUnityAdapter.a in Frameworks */,
+				53266B3803B2446A9C3236FE /* libAPDVungleAdapter.a in Frameworks */,
+				C261852D805043409614C696 /* libAPDYandexAdapter.a in Frameworks */,
+				323238D857CB487E9FA491A9 /* AdSupport.framework in Frameworks */,
+				4FE83834A0EA4A02876DC1CE /* AudioToolbox.framework in Frameworks */,
+				E4AAF323F01140E29E0BACD9 /* AVFoundation.framework in Frameworks */,
+				B84B7042C2CF4AC3872FCB05 /* CFNetwork.framework in Frameworks */,
+				36C16C3B2B9449EE9D239BB5 /* CoreFoundation.framework in Frameworks */,
+				625DF203FFA744148CB342B8 /* CoreImage.framework in Frameworks */,
+				B43C6DB30B0C4B8B9A6582A4 /* CoreLocation.framework in Frameworks */,
+				9AFCAB5B53AC48839A838C0C /* CoreMedia.framework in Frameworks */,
+				FC3E5D5158BB40398FB5FB86 /* CoreMotion.framework in Frameworks */,
+				A6E642B42D194BB48027AD65 /* EventKit.framework in Frameworks */,
+				9852CFB0BA404BD8A2206750 /* EventKitUI.framework in Frameworks */,
+				534C0CF8FBAF4F04AA5DDF75 /* JavaScriptCore.framework in Frameworks */,
+				14D8A572D8E040FCA47A9830 /* MediaPlayer.framework in Frameworks */,
+				DC0BE48C6E3D4FEAAEFA5769 /* MessageUI.framework in Frameworks */,
+				303E9B261D1C4B81B128FDC8 /* QuartzCore.framework in Frameworks */,
+				0B3E45DF3CBB47CFA81FD120 /* Security.framework in Frameworks */,
+				D3734468813F4852ABDC4065 /* Social.framework in Frameworks */,
+				32D516EE3C3A4CC091FA8764 /* StoreKit.framework in Frameworks */,
+				34542B909AD844A4B43605A3 /* SafariServices.framework in Frameworks */,
+				E929FAC6CDF1407CBAE6B8A8 /* SystemConfiguration.framework in Frameworks */,
+				EFE3AB935382473DA2699DF1 /* Twitter.framework in Frameworks */,
+				C1507AFEADC848DEBFD29F80 /* UIKit.framework in Frameworks */,
+				D0E32C9F3A974C4684AB3BBE /* WebKit.framework in Frameworks */,
+				5F2D1E3F6A5748D19F48DB4F /* CoreBluetooth.framework in Frameworks */,
+				EB2F83323FD549048A9C9FCB /* GLKit.framework in Frameworks */,
+				9C05258ECDAC4702A1B06415 /* libc++.dylib in Frameworks */,
+				7AB64351D0CD4855AB5BFAF0 /* libsqlite3.dylib in Frameworks */,
+				BDF71475FE7442B885C4FE8A /* libxml2.2.dylib in Frameworks */,
+				885249212F004E34870E415C /* libz.dylib in Frameworks */,
+				98551F2D3EDB49AC9757D76F /* Appodeal.framework in Frameworks */,
+				30FBD8CA58FA48E68C50B98D /* AdColony.framework in Frameworks */,
+				324949A4F3BF4FD89805743E /* AmazonAd.framework in Frameworks */,
+				19507B3DBA694416B1B2E5CF /* AppLovinSdk.framework in Frameworks */,
+				AEBB4CE83288455BA3E4CAD9 /* Chartboost.framework in Frameworks */,
+				3D850AB6EEB141B9AB5A697D /* FBAudienceNetwork.framework in Frameworks */,
+				7AA901A1457C432A97938770 /* GoogleMobileAds.framework in Frameworks */,
+				7974CC25FA6248D88D84B790 /* InMobiSDK.framework in Frameworks */,
+				C75F9427E93E4939BD3958F0 /* MyTargetSDK.framework in Frameworks */,
+				0A8300A05A124ED8AC101D20 /* StartApp.framework in Frameworks */,
+				6E339D360A744227AAFEF48B /* Tapjoy.framework in Frameworks */,
+				28C37E0E25CC440EB975653A /* mopub-ios-sdk.framework in Frameworks */,
+				270639FBA50E4707B6D2EF34 /* UnityAds.framework in Frameworks */,
+				2D7F777108C04B1B81DD2DF9 /* VungleSDK.framework in Frameworks */,
+				22DB357ADB544799B8D57FAB /* YandexMobileMetrica.framework in Frameworks */,
+				DBB372B731CE4F69B1A6C42F /* YandexMobileAds.framework in Frameworks */,
+				2A8A9645BE8B42B4A1F96AE5 /* libz.tbd in Frameworks */,
+				DACD34C2876D482BB3A942A1 /* CoreTelephony.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				302D95EE14D2391D003F00A1 /* MainViewController.h */,
+				302D95EF14D2391D003F00A1 /* MainViewController.m */,
+				302D95F014D2391D003F00A1 /* MainViewController.xib */,
+				1D3623240D0F684500981E51 /* AppDelegate.h */,
+				1D3623250D0F684500981E51 /* AppDelegate.m */,
+			);
+			name = Classes;
+			path = "Memes BR - Sons para Whatsapp/Classes";
+			sourceTree = SOURCE_ROOT;
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Memes BR - Sons para Whatsapp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				EB87FDF41871DAF40020F90C /* config.xml */,
+				EB87FDF31871DA8E0020F90C /* www */,
+				EB87FDF11871DA420020F90C /* Staging */,
+				301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				307C750510C5A3420062BCA9 /* Plugins */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Memes BR - Sons para Whatsapp-Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */,
+			);
+			name = "Other Sources";
+			path = "Memes BR - Sons para Whatsapp";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0207DA571B56EA530066E2B4 /* Images.xcassets */,
+				3047A50E1AB8057F00498E2A /* config */,
+				8D1107310486CEB800E47090 /* Memes BR - Sons para Whatsapp-Info.plist */,
+				6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */,
+				F8886AE13BCF43019BC441AB /* Appodeal.bundle */,
+				7107C2C56BD3463493C672AD /* StartApp.bundle */,
+				D0015B56AC0A4C2F977C4AC3 /* TapjoyResources.bundle */,
+				46E073EC81024EB8A7EA9D8A /* MPCloseBtn.png */,
+				96A3626613794B7C8F6D62F9 /* MPCloseBtn@2x.png */,
+				C27A59CF51AB4120960500D5 /* MPCloseBtn@3x.png */,
+				FDBFA91995AC419BAB936AB9 /* MPCloseButtonX.png */,
+				E65F04C17C2C463AA7878308 /* MPCloseButtonX@2x.png */,
+				333CF1BDC5B941E6A8A3D8C6 /* MPCloseButtonX@3x.png */,
+				5F857788055144318D0EDFA9 /* MPDAAIcon.png */,
+				6AD11E10FF7D425CA20538CF /* MPDAAIcon@2x.png */,
+				C048540C3F944DFFA5602EF7 /* MPDAAIcon@3x.png */,
+				4E1D1E2965E54D428D3071D0 /* MPMutedBtn.png */,
+				D9E5DE57FA9E423CBF2A33E8 /* MPMutedBtn@2x.png */,
+				EC791BFAE5CD49F6A3313D91 /* MPMutedBtn@3x.png */,
+				AC7C4CE2749D41D48640A4FA /* MPPlayBtn.png */,
+				BAD67787E05E4B4DB9073642 /* MPPlayBtn@2x.png */,
+				A8C766421F2149E6A807ED51 /* MPPlayBtn@3x.png */,
+				FAEFDFCD028F437087CE131A /* MPUnmutedBtn.png */,
+				E4D9E1576B2D42E1B6FF1AF2 /* MPUnmutedBtn@2x.png */,
+				8AEE48E9F5C6463491A0C67C /* MPUnmutedBtn@3x.png */,
+				4A96FD2939BA4F479815CC51 /* MRAID.bundle */,
+				162E92D541BE436CBDE93570 /* MPAdBrowserController.xib */,
+				D67B19B3784B444290CA51A8 /* UnityAds.bundle */,
+				0FC93130F9DF42EFA8D31AC4 /* __vungle.db */,
+				92686E2CA1784459A41EA509 /* vg_close.png */,
+				F2686B6835E143B79BE7E85B /* vg_cta.png */,
+				3D9FE663578B45BEB9883B14 /* vg_mute_off.png */,
+				42DC648C4A3B481C95391DC2 /* vg_mute_on.png */,
+				571DC0FB9C9C4A32AFB82B6C /* vg_privacy.png */,
+			);
+			name = Resources;
+			path = "Memes BR - Sons para Whatsapp/Resources";
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62F5033A415A4385AB036375 /* libAPDAdColonyAdapter.a */,
+				E8EBBCBE1930465EBAD49FF7 /* libAPDAmazonAdsAdapter.a */,
+				1D55D570E15745719927173F /* libAPDAppLovinAdapter.a */,
+				57327E22CD5D42EFB67D7DAB /* libAPDChartboostAdapter.a */,
+				5C3CEA335CF54F47B0FE23BC /* libAPDFacebookAudienceAdapter.a */,
+				5F56F8F827BB4EB19574AC24 /* libAPDGoogleAdMobAdapter.a */,
+				E2B88FC9CD3A42628AF0B930 /* libAPDInMobyAdapter.a */,
+				4811098FF56D4B95A7F491D3 /* libAPDMyTargetAdapter.a */,
+				728D453E7D6340248EAE3524 /* libAPDStartAppAdapter.a */,
+				AF3E7C284B7F47B88F50E163 /* libAPDTapjoyAdapter.a */,
+				396F712ACBF1470C899F8B60 /* libAPDTwitterMoPubAdapter.a */,
+				81DB31E4D4D64C69BB351EEA /* libAPDUnityAdapter.a */,
+				55D7FADD31AA4F2DB38279B2 /* libAPDVungleAdapter.a */,
+				B850677514E94B8B877D9413 /* libAPDYandexAdapter.a */,
+				00C1013A811E4EE0AE278F39 /* AdSupport.framework */,
+				E6591792F13E4B88B4BFFFA1 /* AudioToolbox.framework */,
+				C6F4F8AEDAFA42679E6157A2 /* AVFoundation.framework */,
+				A03FDD3FAD664CBEBB7AEB21 /* CFNetwork.framework */,
+				50166E5CF7114BC9852201AA /* CoreFoundation.framework */,
+				4F20E8D33D1C416795F51413 /* CoreImage.framework */,
+				36F8316DCDF44CF398BB751D /* CoreLocation.framework */,
+				B17BC4869BE94F8DAA8C4A46 /* CoreMedia.framework */,
+				67F3BBB743AF49D79C6C43B6 /* CoreMotion.framework */,
+				B7F89EC5F3F34958B32F00CC /* EventKit.framework */,
+				79B803D3B95143F497ABEF53 /* EventKitUI.framework */,
+				159DD513BB9F40688F64D0D8 /* JavaScriptCore.framework */,
+				B4A44B617CB34BCF9D7D397C /* MediaPlayer.framework */,
+				D6B2E8DE649B4605A66BFF2D /* MessageUI.framework */,
+				6E0BD0F1330B4BF8BDBDC712 /* QuartzCore.framework */,
+				10C4B66B392A49C4AFCC6540 /* Security.framework */,
+				4E70B2EBEEAA4087817DD5DB /* Social.framework */,
+				D11E25C0E9EB4EAFB15ABA14 /* StoreKit.framework */,
+				4D43EFE0DBD54E709312217C /* SafariServices.framework */,
+				92C80D61AEC94579A9349242 /* SystemConfiguration.framework */,
+				105F13F81E2D4BB089FA18E6 /* Twitter.framework */,
+				E33E230BFDA14E26BE8978DD /* UIKit.framework */,
+				1302BC9122844CADA46A4057 /* WebKit.framework */,
+				7088A4BCA99A45E1A0D4C1B4 /* CoreBluetooth.framework */,
+				77A3F51D39E6485CBE38F5C7 /* GLKit.framework */,
+				8B7DBE25A8054F099ABDF3F2 /* libc++.dylib */,
+				DD0D277119F644B89FEE2DA0 /* libsqlite3.dylib */,
+				D580B4F4C749416CAD05CF34 /* libxml2.2.dylib */,
+				B3A4ADCF1FC941BD8407A66A /* libz.dylib */,
+				C955560AEA504D9C8F8ACFCC /* Appodeal.framework */,
+				0FB20A3F3F444EE484334553 /* AdColony.framework */,
+				B9F5BF4A42AF40B7983AB1F2 /* AmazonAd.framework */,
+				EAC65C68AA384702AC84ED58 /* AppLovinSdk.framework */,
+				22C1180B4AE74C2AA16AFCEF /* Chartboost.framework */,
+				4D770FCCEA0540DBBB550822 /* FBAudienceNetwork.framework */,
+				3F5C2E9B256A4C5D9A6964ED /* GoogleMobileAds.framework */,
+				086072722BAE436D8EF6AAA2 /* InMobiSDK.framework */,
+				D946E8F492C7444588225CDE /* MyTargetSDK.framework */,
+				8C88CE754D9741899AD506E0 /* StartApp.framework */,
+				02B6401770FF4BD5A595199C /* Tapjoy.framework */,
+				1A8D2855ADF64D9087E3215B /* mopub-ios-sdk.framework */,
+				5FEC210F6CAE4942A81B78B9 /* UnityAds.framework */,
+				627455F7713244469DDE24A9 /* VungleSDK.framework */,
+				A2E33D5E519C420EBB547E5B /* YandexMobileMetrica.framework */,
+				F8F249DB98AC47D5AE67B448 /* YandexMobileAds.framework */,
+				EB53D21D31A649A5B13D95D8 /* libz.tbd */,
+				03DFE61C5F14466094EE583A /* CoreTelephony.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		301BF52E109A57CC0062928A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				301BF535109A57CC0062928A /* libCordova.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3047A50E1AB8057F00498E2A /* config */ = {
+			isa = PBXGroup;
+			children = (
+				3047A50F1AB8059700498E2A /* build-debug.xcconfig */,
+				3047A5101AB8059700498E2A /* build-release.xcconfig */,
+				3047A5111AB8059700498E2A /* build.xcconfig */,
+			);
+			name = config;
+			sourceTree = "<group>";
+		};
+		307C750510C5A3420062BCA9 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				D25CFB163C244273ADB4BC4C /* AppodealPlugin.m */,
+				50744E0F46584A8ABFF1F6BA /* AppodealPlugin.h */,
+				EB597BC888A74144BF47A6C7 /* CDVMarket.m */,
+				9A9C95D5F2A44A27B147BAB7 /* CDVMarket.h */,
+				B62B9C245FC54724BDBBEE49 /* CDVLogger.m */,
+				25990E2E14DF4743A34F238D /* CDVLogger.h */,
+				875AE9C40E4D4786B19C45AF /* CDVDevice.m */,
+				3B594A53A5EA4A64BB32CA8C /* CDVDevice.h */,
+				4F9DBE235C424ACFBA8E97F8 /* RMStore.m */,
+				E58059047B7B4A54B7292984 /* PaymentsPlugin.m */,
+				3CF912B6459F4C56BBF2A81D /* RMStore.h */,
+				AFC1F33B36774F9BBD332B01 /* PaymentsPlugin.h */,
+				A383E0BFDFFF46989F29C30E /* CDVConnection.m */,
+				FACC7EBCF4344A68913DC7FE /* CDVReachability.m */,
+				9C72F54C0EAA4AF496A65DF0 /* CDVConnection.h */,
+				23A8CBCB6C3A4018B7501C51 /* CDVReachability.h */,
+				2259357C728B48F7B7257FF0 /* CDVSplashScreen.m */,
+				0E221E3A0A964720A3398011 /* CDVViewController+SplashScreen.m */,
+				F8A3DFA955DA4FB0A04BA980 /* CDVSplashScreen.h */,
+				CE930987D08943F1A6964B67 /* CDVViewController+SplashScreen.h */,
+				5C8FBAF5D1E04C18B7E869CA /* CDVStatusBar.m */,
+				AD51844821C44DEEBAECC611 /* CDVStatusBar.h */,
+				F6E145027FB04A2BA8ECBE89 /* NSString+SSURLEncoding.m */,
+				2C43D19B5D4C47A7A24DA7AF /* SocialSharing.m */,
+				6D3C25F1A81F44A993D22D7B /* NSString+SSURLEncoding.h */,
+				87A490A6C83D49C58C794958 /* SocialSharing.h */,
+				A6CD77B079C944C3B2F855F7 /* XCDYouTubeClient.m */,
+				E1C44BDACE424540B2EB32F3 /* XCDYouTubePlayerScript.m */,
+				B57841DD7ED34F50BD9ABBCA /* XCDYouTubeVideo.m */,
+				77135B4D06E240FB901D27DC /* XCDYouTubeVideoOperation.m */,
+				98FFCE97CCA44755849EA938 /* XCDYouTubeVideoPlayerViewController.m */,
+				236C2466FB0F4DF2860B607E /* XCDYouTubeVideoWebpage.m */,
+				01561C9604B941A29E00C26B /* YoutubeVideoPlayer.m */,
+				8B7D774252CC4AE0A76F86AC /* XCDYouTubeClient.h */,
+				780C5591B10D4F42976599AB /* XCDYouTubeError.h */,
+				1248D3C0936E45698C562B16 /* XCDYouTubeKit.h */,
+				F315A302D1A9450B917AAAEA /* XCDYouTubeOperation.h */,
+				ABDED57A5D5C4FE6A092D775 /* XCDYouTubePlayerScript.h */,
+				266A23B45BE64FBCB7DFCBA1 /* XCDYouTubeVideo.h */,
+				6A90960341E14BBFB1B180BC /* XCDYouTubeVideo+Private.h */,
+				727DB04135314F04A38E6867 /* XCDYouTubeVideoOperation.h */,
+				7BB5D72263764B619840B1B1 /* XCDYouTubeVideoPlayerViewController.h */,
+				3D025B0F389B4F1B94E501BB /* XCDYouTubeVideoWebpage.h */,
+				51EEEFC476F14A6D95D235A7 /* YoutubeVideoPlayer.h */,
+				44C98D914D0A48DDAB7734D9 /* SQLitePlugin.m */,
+				2463D4540CFA4CA7B51806BA /* sqlite3.c */,
+				CF27590A37CD410F9FF42235 /* SQLitePlugin.h */,
+				EDE0223A00A1491FB4E4AF3E /* sqlite3.h */,
+				84417135E9F4475AA48A8C39 /* IonicKeyboard.m */,
+				BAA64369E83A41F487062BA5 /* IonicKeyboard.h */,
+				B7CEF5894F634E2A91199B1B /* OneSignalPush.h */,
+				7E9A6BF2C07B403294D3AF49 /* OneSignalSelectorHelpers.h */,
+				53D6AA7754714F5696E78BFD /* UNUserNotificationCenter+OneSignal.h */,
+				7245651248F74B30A3655752 /* UIApplicationDelegate+OneSignal.h */,
+				02128A97E0594B7985EB660B /* OneSignal.m */,
+				78E75B2B7EAE4B0F8694C48E /* OneSignalHTTPClient.m */,
+				08628A58B00F4CA5AABDC403 /* OneSignalTrackIAP.m */,
+				257272F58BDA45CD9AC76FDF /* OneSignalJailbreakDetection.m */,
+				6AA85E120C0349CFB3E7FEB9 /* OneSignalReachability.m */,
+				80FC7B7D3AC44A31A66C6AEE /* OneSignalMobileProvision.m */,
+				3EBFBA81F564442389FAED8B /* OneSignalLocation.m */,
+				F034B240FDE942DB912B2475 /* OneSignalAlertViewDelegate.m */,
+				FFCA6B119F154B299D3BA452 /* OneSignalTracker.m */,
+				417ED527A9F842969B8DA246 /* OneSignalHelper.m */,
+				B681BC5EA7ED4E8D8A36C49B /* OneSignalWebView.m */,
+				0DDBF14DCB61402C9F894F57 /* OneSignalPush.m */,
+				67204629377F4C1D8ABA5798 /* OneSignalSelectorHelpers.m */,
+				D879E53625C14A16A920101C /* UNUserNotificationCenter+OneSignal.m */,
+				5C233EF32FAE4662911E05AA /* UIApplicationDelegate+OneSignal.m */,
+				9C63A4E26E7E4C48AD74CEAC /* OneSignal.h */,
+				A4CB54EBF2044D5B82E239D3 /* OneSignalHTTPClient.h */,
+				4A8A015A4F58406FB37CE8F5 /* OneSignalTrackIAP.h */,
+				BDD4332CDDD743E39125DD35 /* OneSignalJailbreakDetection.h */,
+				5404903A096A4104BA76972B /* OneSignalReachability.h */,
+				C6D5FC761D7A4A03AC0518B9 /* OneSignalMobileProvision.h */,
+				C84DEF1472364B709F6A2F9C /* OneSignalLocation.h */,
+				DD5031CA6CEA4F21B3F4DDFC /* OneSignalAlertViewDelegate.h */,
+				A16B0AD0B70345F48B248C1A /* OneSignalHelper.h */,
+				9A2EF0AC494843AD8140EC31 /* OneSignalTracker.h */,
+				F5E8AFAC0E8E4F4A8BABB596 /* OneSignalWebView.h */,
+				2A8E6ECFFF9443B6A3EBDBCF /* OneSignal-Prefix.pch */,
+			);
+			name = Plugins;
+			path = "Memes BR - Sons para Whatsapp/Plugins";
+			sourceTree = SOURCE_ROOT;
+		};
+		EB87FDF11871DA420020F90C /* Staging */ = {
+			isa = PBXGroup;
+			children = (
+				F840E1F0165FE0F500CFE078 /* config.xml */,
+				301BF56E109A69640062928A /* www */,
+			);
+			name = Staging;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Memes BR - Sons para Whatsapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Memes BR - Sons para Whatsapp" */;
+			buildPhases = (
+				304B58A110DAC018002A0835 /* Copy www directory */,
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				301BF551109A68C00062928A /* PBXTargetDependency */,
+			);
+			name = "Memes BR - Sons para Whatsapp";
+			productName = "Memes BR - Sons para Whatsapp";
+			productReference = 1D6058910D05DD3D006BFB54 /* Memes BR - Sons para Whatsapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 510;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "__NON-CLI__" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 301BF52E109A57CC0062928A /* Products */;
+					ProjectRef = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Memes BR - Sons para Whatsapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		301BF535109A57CC0062928A /* libCordova.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCordova.a;
+			remoteRef = 301BF534109A57CC0062928A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */,
+				0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */,
+				6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */,
+				74A53D6AEDC14A7C8E936384 /* Appodeal.bundle in Resources */,
+				AC2926D05E414B23B2A557D6 /* StartApp.bundle in Resources */,
+				10772DA5AFBB405695B2A101 /* TapjoyResources.bundle in Resources */,
+				BFEF1E105AC14C3884798B26 /* MPCloseBtn.png in Resources */,
+				F4757E7456094F8CB89E36BF /* MPCloseBtn@2x.png in Resources */,
+				7DFC55F8A611433EA6B4825E /* MPCloseBtn@3x.png in Resources */,
+				4FC5DD5E9EFF4BE783CF187E /* MPCloseButtonX.png in Resources */,
+				8C11773849AF4D6C802A8079 /* MPCloseButtonX@2x.png in Resources */,
+				C4EF7734175A4913B3688077 /* MPCloseButtonX@3x.png in Resources */,
+				56E2864921474D979C0EF49E /* MPDAAIcon.png in Resources */,
+				C779A1B1055F4E49BAB657BC /* MPDAAIcon@2x.png in Resources */,
+				350877C7D0924A6D9A2A3767 /* MPDAAIcon@3x.png in Resources */,
+				518EC6749A9349419B16E2C2 /* MPMutedBtn.png in Resources */,
+				2FF7BD1AC0FF4FE7A5028639 /* MPMutedBtn@2x.png in Resources */,
+				6C5DEE2FE88D4D07A216D198 /* MPMutedBtn@3x.png in Resources */,
+				0C448AB781224AF38F3D9129 /* MPPlayBtn.png in Resources */,
+				91C64AD5888E4647BEAE9204 /* MPPlayBtn@2x.png in Resources */,
+				F49C112CBD7B4A448B53DCAC /* MPPlayBtn@3x.png in Resources */,
+				D23BEF1D289F460EAFC96C73 /* MPUnmutedBtn.png in Resources */,
+				F0DE4C0435864C9493516721 /* MPUnmutedBtn@2x.png in Resources */,
+				D43030F05B1E411A928061A9 /* MPUnmutedBtn@3x.png in Resources */,
+				D60A292545FD4892A28291BB /* MRAID.bundle in Resources */,
+				E5233FA385F84D7E81386927 /* MPAdBrowserController.xib in Resources */,
+				A354DEB5C25A45FEB25CD051 /* UnityAds.bundle in Resources */,
+				989D96DBC1E141078CA9AB24 /* __vungle.db in Resources */,
+				74A2F7240A8646948945A3CB /* vg_close.png in Resources */,
+				75E21E84765643429E390BBD /* vg_cta.png in Resources */,
+				7EE75308EB2C45B48B033929 /* vg_mute_off.png in Resources */,
+				426D8D2C009448F9A2056335 /* vg_mute_on.png in Resources */,
+				EBAB34FA04E743D6B3B4345C /* vg_privacy.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		304B58A110DAC018002A0835 /* Copy www directory */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy www directory";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "NODEJS_PATH=/usr/local/bin; NVM_NODE_PATH=~/.nvm/versions/node/`nvm version 2>/dev/null`/bin; N_NODE_PATH=`find /usr/local/n/versions/node/* -maxdepth 0 -type d 2>/dev/null | tail -1`/bin; XCODE_NODE_PATH=`xcode-select --print-path`/usr/share/xcs/Node/bin; PATH=$NODEJS_PATH:$NVM_NODE_PATH:$N_NODE_PATH:$XCODE_NODE_PATH:$PATH && node cordova/lib/copy-www-build-step.js";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
+				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
+				9A8B74F994AE4B0598F2AFD6 /* AppodealPlugin.m in Sources */,
+				3D8DEB27E67F4A02B9C0BA8C /* CDVMarket.m in Sources */,
+				4CAB53153CDF43938890E37A /* CDVLogger.m in Sources */,
+				096CC73892514088A676BC8F /* CDVDevice.m in Sources */,
+				C6501E60DF86461B85C81AD2 /* RMStore.m in Sources */,
+				C5E5BE6AF80145E4AAE57505 /* PaymentsPlugin.m in Sources */,
+				559F6AC708D64B2F97EB7029 /* CDVConnection.m in Sources */,
+				6B6F604C5C4E43FFA7CFC538 /* CDVReachability.m in Sources */,
+				29B50A421CD1414A8BCA5AC8 /* CDVSplashScreen.m in Sources */,
+				AE35E30F4BBB4E988E820871 /* CDVViewController+SplashScreen.m in Sources */,
+				A95AAEAB478543588604FE81 /* CDVStatusBar.m in Sources */,
+				3B30A9EA08FE4F3BAE1898D9 /* NSString+SSURLEncoding.m in Sources */,
+				9C80937C95D84FE585DC3A2F /* SocialSharing.m in Sources */,
+				7076D1FB21DA4C1EA4287F7D /* XCDYouTubeClient.m in Sources */,
+				1AFAD3CDFFA648D3AE66E537 /* XCDYouTubePlayerScript.m in Sources */,
+				8A28D6E2A3514E3E91ABED55 /* XCDYouTubeVideo.m in Sources */,
+				D280A220B8DA41DDA3464B91 /* XCDYouTubeVideoOperation.m in Sources */,
+				DA6FFC3E1E95473395223B7C /* XCDYouTubeVideoPlayerViewController.m in Sources */,
+				2FB665485D044CCA9A54448E /* XCDYouTubeVideoWebpage.m in Sources */,
+				8744066F92FC435D8BB5EEDB /* YoutubeVideoPlayer.m in Sources */,
+				A6830D4462144564B757D0FC /* SQLitePlugin.m in Sources */,
+				ACF134C7BB3E4AF5886F825A /* sqlite3.c in Resources */,
+				9245C7F13C4648E385E35B28 /* IonicKeyboard.m in Sources */,
+				72471967C32C4E44A5CEF911 /* OneSignalPush.h in Resources */,
+				7B6E0E12065C485BA31BC0AC /* OneSignalSelectorHelpers.h in Resources */,
+				5A6E3D73023F492394CFEB34 /* UNUserNotificationCenter+OneSignal.h in Resources */,
+				CF9254C5655A4BF29CEE026A /* UIApplicationDelegate+OneSignal.h in Resources */,
+				7A9254A4E6414543A877A434 /* OneSignal.m in Sources */,
+				064A76170D8649B7B38FDDF0 /* OneSignalHTTPClient.m in Sources */,
+				4453B7E7BE9244FC840F3C77 /* OneSignalTrackIAP.m in Sources */,
+				EE0913C3A98949A3B8D2F308 /* OneSignalJailbreakDetection.m in Sources */,
+				D5E440823EA0498BB88B7CBC /* OneSignalReachability.m in Sources */,
+				2827FC845C1A4AAC9F0FF49F /* OneSignalMobileProvision.m in Sources */,
+				7BD7C6A9F1584BF4B24F344A /* OneSignalLocation.m in Sources */,
+				9A2411C8112445548E93CB78 /* OneSignalAlertViewDelegate.m in Sources */,
+				B06BF92E389F4D70A519E826 /* OneSignalTracker.m in Sources */,
+				74CF32D2B04C48D9959A73DE /* OneSignalHelper.m in Sources */,
+				58329AAA5147459BBCB9F865 /* OneSignalWebView.m in Sources */,
+				E27B6355D62B4486AC529F91 /* OneSignalPush.m in Sources */,
+				404793C9A21B42CBBA125E21 /* OneSignalSelectorHelpers.m in Sources */,
+				448015D4BC2741CCBF465B60 /* UNUserNotificationCenter+OneSignal.m in Sources */,
+				E5A812BD82C64D4BA75117D9 /* UIApplicationDelegate+OneSignal.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		301BF551109A68C00062928A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CordovaLib;
+			targetProxy = 301BF550109A68C00062928A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3047A50F1AB8059700498E2A /* build-debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Memes BR - Sons para Whatsapp/Memes BR - Sons para Whatsapp-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "Memes BR - Sons para Whatsapp/Memes BR - Sons para Whatsapp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				PRODUCT_NAME = "Memes BR - Sons para Whatsapp";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+					"\"$(SRCROOT)/Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+					"\"$(SRCROOT)/Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+					"\"$(SRCROOT)/Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+					"\"$(SRCROOT)/Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+					"\"$(SRCROOT)/Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+					"\"$(SRCROOT)/Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+					"\"$(SRCROOT)/Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+					"\"$(SRCROOT)/Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+					"\"$(SRCROOT)/Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+					"\"$(SRCROOT)/Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+					"\"$(SRCROOT)/Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+					"\"$(SRCROOT)/Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+					"\"$(SRCROOT)/Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+				);
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+					"\"Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+					"\"Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+					"\"Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+					"\"Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+					"\"Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+					"\"Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+					"\"Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+					"\"Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+					"\"Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+					"\"Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+					"\"Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+					"\"Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+					"\"Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+					"\"Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+					"\"Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+				);
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3047A5101AB8059700498E2A /* build-release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Memes BR - Sons para Whatsapp/Memes BR - Sons para Whatsapp-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "Memes BR - Sons para Whatsapp/Memes BR - Sons para Whatsapp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				PRODUCT_NAME = "Memes BR - Sons para Whatsapp";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+					"\"$(SRCROOT)/Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+					"\"$(SRCROOT)/Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+					"\"$(SRCROOT)/Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+					"\"$(SRCROOT)/Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+					"\"$(SRCROOT)/Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+					"\"$(SRCROOT)/Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+					"\"$(SRCROOT)/Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+					"\"$(SRCROOT)/Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+					"\"$(SRCROOT)/Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+					"\"$(SRCROOT)/Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+					"\"$(SRCROOT)/Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+					"\"$(SRCROOT)/Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+					"\"$(SRCROOT)/Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+				);
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+					"\"Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+					"\"Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+					"\"Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+					"\"Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+					"\"Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+					"\"Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+					"\"Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+					"\"Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+					"\"Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+					"\"Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+					"\"Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+					"\"Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+					"\"Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+					"\"Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+					"\"Memes BR - Sons para Whatsapp/Plugins/com.appodeal.plugin\"",
+				);
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3047A5111AB8059700498E2A /* build.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3047A5111AB8059700498E2A /* build.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Memes BR - Sons para Whatsapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "__NON-CLI__" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
